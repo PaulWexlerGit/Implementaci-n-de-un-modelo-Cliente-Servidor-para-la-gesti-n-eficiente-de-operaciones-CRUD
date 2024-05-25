@@ -1,0 +1,57 @@
+
+‡
+java:S6208‰"CMerge the previous cases into this one using comma-separated label.(ÕÇğ8×®¯„û1J$2023c332-fcea-4108-9f0e-c7ce365ca257
+©
+java:S1488/"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(¬šëøÿÿÿÿ8Ø®¯„û1J$fe503e91-04d4-4e6c-b894-b74482d5a056
+e
+java:S5411¢"(Use a primitive boolean expression here.(×É¡çJ$4b26c027-46c7-4610-a9a4-8bd94279a965
+
+java:S1163•"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$ca3547c7-546f-4d2d-9d16-7a0f320f53f6
+
+java:S1163œ"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$3f54eaa2-5a5f-463e-8030-3091174dbbf9
+
+java:S1163§"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$fe2be711-85fe-4b6a-9320-01f0aa4d0ded
+
+java:S1163®"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$8da7843e-a26e-457a-8249-02f4e85a0f71
+v
+java:S1143•"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$e0cd73dc-55ce-44b8-951c-1054e8ee5067
+v
+java:S1143œ"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$1c186131-6c76-491a-b50c-12c865e40aa2
+v
+java:S1143§"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$689d805a-04e9-4f67-b84f-56755931b50b
+v
+java:S1143®"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$e4b3b68d-3996-4800-a401-4612d348548a
+{
+java:S1118":Add a private constructor to hide the implicit public one.(ß•›‘şÿÿÿÿJ$38a054e5-7477-42dd-bc54-301406e18a39
+|	java:S125*"<This block of commented-out lines of code should be removed.(¨³óìøÿÿÿÿJ$1bac920c-a5fc-4cfb-8938-7412ec2b4970
+w	java:S1253"<This block of commented-out lines of code should be removed.(“ÇĞ®J$be5c4803-b1f1-442d-a992-7c7fe6fde1ec
+w	java:S125E"<This block of commented-out lines of code should be removed.(—ëJ$02c9be58-f534-4849-9354-dbf866bd14c7
+|	java:S125M"<This block of commented-out lines of code should be removed.(ÇêˆÀúÿÿÿÿJ$87e23524-c619-4dfd-8fae-b8226cd6ef24
+w	java:S125Q"<This block of commented-out lines of code should be removed.(µôŞÏJ$979741d3-39c6-479e-9ba8-4ef2f2c8ebc2
+
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ÖŞJ$94f0e7d5-faa1-4b93-9b23-15cf63dcc2fb
+w	java:S125X"<This block of commented-out lines of code should be removed.(½­ÚàJ$f943f2fe-5f0a-4fff-86eb-77600517459e
+˜
+java:S2737c"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$f696783b-32fe-44bd-a389-21061bda4cbb
+”
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™ûJ$0b0f44b0-c7aa-4ecc-8b0a-68397e23e599
+i	java:S131|""Add a default case to this switch.(Ï•‹“ÿÿÿÿÿ8óÍ¯„û1J$c08005ac-56ed-4731-8e62-72741303f45a
+Œ
+java:S1301|"KReplace this "switch" statement by "if" statements to increase readability.(Ï•‹“ÿÿÿÿÿJ$39a4f5a4-0cdb-44f4-9043-acf764c8b351
+h
+java:S1125~"'Remove the unnecessary boolean literal.(ôöÒÓşÿÿÿÿJ$3539985e-04e9-43e6-abc5-6b704cd00c24
+e	java:S131„""Add a default case to this switch.(ìÎ§ù8õÍ¯„û1J$38be0d2d-6446-4fef-a5f0-a09086516047
+™
+java:S2737•"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$68a78093-117e-415d-813e-8b5575c2fe6f
+™
+java:S2737œ"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$98418048-72e9-4316-b25f-d7053f4eafd2
+d
+java:S1125¢"'Remove the unnecessary boolean literal.(×É¡çJ$a34b882f-820f-4ccc-b203-42bfc65029d8
+™
+java:S2737§"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$4504ab2f-5da3-4459-a86c-f0e308c7c994
+™
+java:S2737®"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$e2a3c247-fac0-41ae-ac85-b432fb735bd5
+k
+java:S2093o"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$1d0c28be-98e6-4ad8-bd8d-19b6129df5ca
+‚
+java:S6541\"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 3 to 2, Number of Variables from 12 to 6.(ÖŞJ$f9ffdc0a-a5cf-45f8-b94f-7c12b703616a
