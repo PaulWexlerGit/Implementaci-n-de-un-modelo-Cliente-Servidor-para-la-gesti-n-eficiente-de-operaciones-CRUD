@@ -9,16 +9,6 @@ M
 src/main/java/model/User.java,8/e/8e1ebf0166aec1f7f81589f5763cf23a86e9c01e
 R
 "src/main/java/exec/MainClient.java,0/f/0f8e4cb6b29fa563b32f1ddaec324326690af5cd
-X
-(src/main/java/servidor/HiloServidor.java,d/3/d3483f618b43ac9dd65a747caaab70606ff1b916
-T
-$src/main/java/comun/ObjetoEnvio.java,9/2/9221664865e1764640ed7afa3fde93791cb53481
-T
-$src/main/java/servidor/Servidor.java,5/f/5f03073080075abeca5110c4023303737e6bd3cc
-U
-%src/main/java/cliente/ClienteDAO.java,3/8/3844637df78d1cb75f74b9306e8944ab46fae9ea
-W
-'src/main/java/servidor/ServidorDAO.java,9/7/9729c6da881997b739fa68fae68422ee78a90421
 R
 "src/main/java/comun/Respuesta.java,6/f/6fb57423d3eba53f35a1d77264e26bf794273c70
 S
@@ -35,10 +25,6 @@ N
 src/main/java/utils/Utils.java,0/b/0bed2286518b323a975ce5cf9b039f708d3d8630
 V
 &src/main/java/utils/HibernateUtil.java,7/c/7c3feeb77020b54b7bd95868b9b9ededaf0f7505
-U
-%src/main/java/utils/GenerarClave.java,d/4/d496323109a5ca50599aaeadc159f050f3b715e9
-W
-'src/main/java/servidor/MyException.java,7/0/704fa8a1b86459b25f1e033ee0913808e129f786
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -46,3 +32,39 @@ w
 G.idea/sonarlint/issuestore/3/1/3176feae82bf4ff4f68f72c9d6d3b850a3110c22,5/c/5ccecdec49ab8c422b40b3434a5cadea6e0b9aca
 Å
 Q.idea/sonarlint/securityhotspotstore/3/1/3176feae82bf4ff4f68f72c9d6d3b850a3110c22,0/a/0afcf3f7da842fce35e619f27d4f6c8352286c59
+Z
+*src/main/java/utils/KeyGeneratorClass.java,f/2/f285b5e61956059603f75430231e23e71852a37f
+T
+$src/main/java/cliente/ClientDAO.java,0/d/0d14c705e0e585c31bf7c44a4621402f59b66821
+U
+%src/main/java/server/MyException.java,7/e/7e4278a419fea82241add6f011ec2f60ea3d66bf
+S
+#src/main/java/server/ServerDAO.java,e/f/ef8ef02ffec214ec003c3102794f01a6c97603dc
+P
+ src/main/java/server/Server.java,4/c/4c405aa622276106ee9ef8c3a2fbee4e76dcafbb
+_
+/src/main/java/library/view/BookMaintenance.java,8/8/889e26766302619f1512d4bea6cd5965662aabb1
+_
+/src/main/java/library/view/BooksTableModel.java,f/4/f4299d4dfa0db2475942b6eade99837f863bfc35
+[
++src/main/java/library/view/LibraryView.java,8/4/849ee6c759e05546c5789483c7a92b8aa240ad9e
+;
+miClave.key,a/0/a096fa965231e636e0f5acc85508df0f3c8127ca
+d
+4src/main/java/library/controller/BookController.java,3/d/3dc01d857802411149045473fdfde9bb39634b1a
+S
+#src/main/java/common/Operation.java,7/3/73db3fb4f7389d6bb4552c7031bccc408726ee5d
+P
+ src/main/java/common/Answer.java,1/c/1c43e1e5bb8dacd2b5ab18f8393f87041347bfee
+Å
+Q.idea/sonarlint/securityhotspotstore/f/2/f285b5e61956059603f75430231e23e71852a37f,3/a/3a21773124c25500c2f5ca3b008f38a80a7f9f20
+_
+/src/main/java/library/view/UserMaintenance.java,4/6/464ec6651eb274ceb6197117076b8dc0eabd3409
+d
+4src/main/java/library/controller/LoanController.java,d/6/d6be2a421ec4758ba5cafaa8db2b23b31ffdf139
+d
+4src/main/java/library/controller/UserController.java,e/2/e28cd50830f447bc34d3b72fa1e3e37bf70d27bc
+V
+&src/main/java/server/ServerThread.java,a/7/a7fea2d6d2dea148c337ca45778eed26ad3acf51
+_
+/src/main/java/library/view/UsersTableModel.java,e/5/e5790ca6b57a6680af1ae5ae2cf75d437a7945cb
