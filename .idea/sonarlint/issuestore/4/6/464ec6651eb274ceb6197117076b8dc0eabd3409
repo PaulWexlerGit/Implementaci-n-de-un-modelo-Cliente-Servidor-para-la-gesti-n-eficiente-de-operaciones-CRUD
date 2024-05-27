@@ -1,0 +1,29 @@
+
+k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ó©Üùÿÿÿÿ
+H
+java:S1199?"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199E"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199\"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199I"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199M"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199R"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199V"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199`"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199d"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199j"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+p	java:S116"VRename this field "textField_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ş‡şÿÿÿÿ
+M
+java:S11354"2Complete the task associated to this TODO comment.(«¹¥Èúÿÿÿÿ
+S
+java:S1128">Remove this unused import 'library.controller.BookController'.(…İÒt
+=
+java:S1128"'Remove this unused import 'model.Book'.(åšñ

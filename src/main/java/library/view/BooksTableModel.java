@@ -46,4 +46,13 @@ public class BooksTableModel extends AbstractTableModel {
 	public String getColumnName(int column) {
 		return columnas[column];
 	}
+
+	public void removeRow(int filaSeleccionada) {
+		listaLibros.remove(filaSeleccionada);
+		// TODO comprueba que la tabla se actualiza sin este dato
+	}
+
+	public void updateBook(int selectedRow, Book bookSelected) {
+		listaLibros.set(selectedRow, bookSelected);
+	}
 }

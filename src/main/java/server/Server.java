@@ -18,6 +18,7 @@ public class Server {
 			System.err.println(ex.getMessage());
 			return;
 		}
+		System.out.println("Servidor ejecutandose...");
 		try (ServerSocket ss = new ServerSocket(Config.PUERTO)) {
 			do {
 				cliente = ss.accept();
@@ -28,5 +29,6 @@ public class Server {
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
 		}
+		System.out.println("Servidor terminado");
 	}
 }

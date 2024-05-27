@@ -30,7 +30,7 @@ public class KeyGeneratorClass implements Serializable {
 
 	}
 
-	public static void main(String[] args) throws Exception {
+	public static void generate() throws Exception {
 		ObjectOutputStream oos = null;
 		File ficheroSecret = null;
 		KeyGeneratorClass secretKeyObj = null;

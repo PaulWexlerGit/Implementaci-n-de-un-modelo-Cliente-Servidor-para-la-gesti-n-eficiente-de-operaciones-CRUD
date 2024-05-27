@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Initial commit ++">
+    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Added View &amp; Controller and renamed to English">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ef7f81f12ca1f77f9697d15dcf381fe6f48741b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb57423d3eba53f35a1d77264e26bf794273c70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1ef7f81f12ca1f77f9697d15dcf381fe6f48741b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6fb57423d3eba53f35a1d77264e26bf794273c70" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miClave.key" beforeDir="false" afterPath="$PROJECT_DIR$/miClave.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cliente/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cliente/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comun/ObjetoEnvio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comun/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comun/Operacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comun/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comun/Respuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exec/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exec/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Loan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servidor/HiloServidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/HiloServidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servidor/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servidor/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servidor/ServidorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GenerarClave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <recent name="comun" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Servidor">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="GenerarClave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.GenerarClave" />
       <module name="BibliotecaProyectoFinal" />
@@ -131,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="servidor.Servidor" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
       <module name="BibliotecaProyectoFinal" />
       <extension name="coverage">
         <pattern>
@@ -144,10 +135,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GenerarClave" />
+      <item itemvalue="Application.MainClient" />
+      <item itemvalue="Application.MainCliente" />
+      <item itemvalue="Application.Server" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClient" />
-        <item itemvalue="Application.Servidor" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.GenerarClave" />
         <item itemvalue="Application.MainCliente" />
       </list>
@@ -178,6 +175,10 @@
       <workItem from="1716658260480" duration="315000" />
       <workItem from="1716659988428" duration="158000" />
       <workItem from="1716722496160" duration="217000" />
+      <workItem from="1716756758858" duration="329000" />
+      <workItem from="1716833013765" duration="72000" />
+      <workItem from="1716833095665" duration="43000" />
+      <workItem from="1716834780680" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit ++">
       <option name="closed" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716449775178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added View &amp; Controller and renamed to English">
+      <option name="closed" value="true" />
+      <created>1716756981337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716756981337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit ++" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit ++" />
+    <MESSAGE value="Added View &amp; Controller and renamed to English" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added View &amp; Controller and renamed to English" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

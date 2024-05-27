@@ -1,0 +1,53 @@
+
+Z
+java:S6208Š"CMerge the previous cases into this one using comma-separated label.(ÕÇğ
+w
+java:S14880"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ÚµŸß
+?
+java:S5411£"(Use a primitive boolean expression here.(§Š’¥
+Y
+java:S1163–"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
+Y
+java:S1163"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
+Y
+java:S1163¨"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
+Y
+java:S1163¯"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
+P
+java:S1143–"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
+P
+java:S1143"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
+P
+java:S1143¨"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
+P
+java:S1143¯"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(şÄãÜ
+V	java:S125+"<This block of commented-out lines of code should be removed.(¨³óìøÿÿÿÿ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(“ÇĞ®
+Q	java:S125F"<This block of commented-out lines of code should be removed.(—ë
+V	java:S125N"<This block of commented-out lines of code should be removed.(ÇêˆÀúÿÿÿÿ
+Q	java:S125R"<This block of commented-out lines of code should be removed.(µôŞÏ
+h
+java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¢ãï¦
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(½­Úà
+r
+java:S2737d"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+n
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+7	java:S131}""Add a default case to this switch.(óÒÌ·
+a
+java:S1301}"KReplace this "switch" statement by "if" statements to increase readability.(óÒÌ·
+8	java:S131…""Add a default case to this switch.(Óğ²
+s
+java:S2737–"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+s
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+s
+java:S2737¨"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+s
+java:S2737¯"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+E
+java:S2093p"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Ü
+java:S6541]"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 3 to 2, Number of Variables from 12 to 6.(¢ãï¦

@@ -19,6 +19,10 @@ import javax.crypto.NoSuchPaddingException;
 public class Utils {
 	public static KeyGeneratorClass leerClaveSimetrica() throws Exception {
 		KeyGeneratorClass clave = null;
+		File file = new File(Config.KEY_FILE_NAME);
+		if (!file.exists()) {
+			KeyGeneratorClass.generate();
+		}
 		try (FileInputStream fis = new FileInputStream(Config.KEY_FILE_NAME);
 				ObjectInputStream ois = new ObjectInputStream(fis);) {
 			clave = (KeyGeneratorClass) ois.readObject();
