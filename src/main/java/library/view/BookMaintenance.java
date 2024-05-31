@@ -174,38 +174,47 @@ public class BookMaintenance extends JDialog {
 			buttonPane.setLayout(new FlowLayout(FlowLayout.CENTER));
 			getContentPane().add(buttonPane, BorderLayout.SOUTH);
 			{
-				JButton btnNewButton = new JButton("Inserta");
-				btnNewButton.addActionListener(new ActionListener() {
+				JButton btnInserta = new JButton("Inserta");
+				btnInserta.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						resetDetailBook();
+						insertBook();
 					}
 				});
-				buttonPane.add(btnNewButton);
+				buttonPane.add(btnInserta);
 			}
 			{
-				JButton okButton = new JButton("Borra");
-				okButton.addActionListener(new ActionListener() {
+				JButton btnBorra = new JButton("Borra");
+				btnBorra.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						removeBook();
 						resetDetailBook();
 					}
 				});
-				okButton.setActionCommand("OK");
-				buttonPane.add(okButton);
-				getRootPane().setDefaultButton(okButton);
+				btnBorra.setActionCommand("OK");
+				buttonPane.add(btnBorra);
+				getRootPane().setDefaultButton(btnBorra);
 			}
 			{
-				JButton cancelButton = new JButton("Actualiza");
-				cancelButton.addActionListener(new ActionListener() {
+				JButton btnActualiza = new JButton("Actualiza");
+				btnActualiza.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
 						getDetailBook();
 						updateBook();
 						BooksTableModel model = (BooksTableModel) table.getModel();
-						model.updateBook(table.getSelectedRow(), bookSelected);
+						model.updateRow(table.getSelectedRow(), bookSelected);
 					}
 				});
-				cancelButton.setActionCommand("Cancel");
-				buttonPane.add(cancelButton);
+				btnActualiza.setActionCommand("Cancel");
+				buttonPane.add(btnActualiza);
+			}
+			{
+				JButton btnLimpia = new JButton("Limpia");
+				btnLimpia.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						resetDetailBook();
+					}
+				});
+				buttonPane.add(btnLimpia);
 			}
 		}
 	}
@@ -219,7 +228,17 @@ public class BookMaintenance extends JDialog {
 	}
 
 	protected void insertBook() {
-
+		Book book = new Book();
+		book.setTitle(tfTitle.getText());
+		book.setIsbn(tfISBN.getText());
+		book.setEditorial(tfEditorial.getText());
+		book.setAuthor(tfAuthor.getText());
+		try {
+			book = BookController.createBook(book);
+			((BooksTableModel)table.getModel()).insertRow(book);
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(contentPanel, e, "Error", JOptionPane.WARNING_MESSAGE, null);
+		}
 	}
 
 	protected Book updateBook() {

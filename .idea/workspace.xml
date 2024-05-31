@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Added View &amp; Controller and renamed to English">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ef7f81f12ca1f77f9697d15dcf381fe6f48741b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb57423d3eba53f35a1d77264e26bf794273c70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1ef7f81f12ca1f77f9697d15dcf381fe6f48741b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/f/6fb57423d3eba53f35a1d77264e26bf794273c70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved BookMaintenance View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/BooksTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/BooksTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/UsersTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/UsersTableModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +175,8 @@
       <workItem from="1716833013765" duration="72000" />
       <workItem from="1716833095665" duration="43000" />
       <workItem from="1716834780680" duration="209000" />
+      <workItem from="1716841029102" duration="176000" />
+      <workItem from="1717177343405" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit ++">
       <option name="closed" value="true" />
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716756981337</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Improved BookMaintenance View">
+      <option name="closed" value="true" />
+      <created>1716841192500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841192500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit ++" />
     <MESSAGE value="Added View &amp; Controller and renamed to English" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added View &amp; Controller and renamed to English" />
+    <MESSAGE value="Improved BookMaintenance View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved BookMaintenance View" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

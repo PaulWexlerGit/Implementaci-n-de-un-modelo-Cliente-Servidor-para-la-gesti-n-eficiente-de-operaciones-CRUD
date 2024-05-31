@@ -1,18 +1,26 @@
 package library.view;
 
 import java.util.List;
+import java.util.function.Function;
 
 import javax.swing.table.AbstractTableModel;
 
+import model.Book;
 import model.User;
 
 public class UsersTableModel extends AbstractTableModel {
 	private static final long serialVersionUID = 1L;
 	private List<User> listaUsuarios;
-	private String[] columnas = { "Nombre", "Apellido", "Mail", "Alquileres" };
+	private String[] columnas = { "Mail", "Nombre", "Apellidos" };
 
-	public UsersTableModel(List<User> listaLibros) {
+	public UsersTableModel(List<User> listaUsuarios) {
 		this.listaUsuarios = listaUsuarios;
+		/*
+		 * Function<Book, Object>[] titles = new Function[] { book ->
+		 * book.getTitle().toUpperCase(), book.getIsbn().toUpperCase(),
+		 * book.getEditorial().toUpperCase(), book.getAuthor().toUpperCase() };
+		 */
+		
 	}
 
 	@Override
@@ -30,13 +38,11 @@ public class UsersTableModel extends AbstractTableModel {
 		User usuario = listaUsuarios.get(rowIndex);
 		switch (columnIndex) {
 		case 0:
-			return usuario.getName();
-		case 1:
-			return usuario.getSurname();
-		case 2:
 			return usuario.getEmail();
-		case 3:
-			return usuario.getLoans();
+		case 1:
+			return usuario.getName();
+		case 2:
+			return usuario.getSurname();
 		default:
 			return null;
 		}
@@ -46,4 +52,26 @@ public class UsersTableModel extends AbstractTableModel {
 	public String getColumnName(int column) {
 		return columnas[column];
 	}
+
+	public void removeRow(int filaSeleccionada) {
+		listaUsuarios.remove(filaSeleccionada);
+		fireTableDataChanged();
+		// TODO comprueba que la tabla se actualiza sin este dato
+	}
+	
+	public void insertRow(User user) {
+		listaUsuarios.add(user);
+		fireTableDataChanged();
+		// TODO comprueba que la tabla se actualiza con este dato
+	}
+	public void updateRow(int selectedRow, User userSelected) {
+		listaUsuarios.set(selectedRow, userSelected);
+		fireTableDataChanged();
+	}
+	/*
+	 * public void setColumnValueGetters(Function<Book, Object>[]
+	 * columnValueGetters) { this.columnValueGetters = columnValueGetters;
+	 * fireTableStructureChanged(); }
+	 */
 }
+

@@ -20,4 +20,8 @@ public class BookController {
 		return (Book) ClientDAO.update(book);
 	}
 
+	public static Book createBook(Book book) throws Exception {
+		return (Book) ClientDAO.create(book);	
+	}
+
 }

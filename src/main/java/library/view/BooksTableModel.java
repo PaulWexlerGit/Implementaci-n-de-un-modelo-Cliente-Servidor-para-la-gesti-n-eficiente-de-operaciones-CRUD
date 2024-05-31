@@ -1,6 +1,7 @@
 package library.view;
 
 import java.util.List;
+import java.util.function.Function;
 
 import javax.swing.table.AbstractTableModel;
 
@@ -13,6 +14,12 @@ public class BooksTableModel extends AbstractTableModel {
 
 	public BooksTableModel(List<Book> listaLibros) {
 		this.listaLibros = listaLibros;
+		/*
+		 * Function<Book, Object>[] titles = new Function[] { book ->
+		 * book.getTitle().toUpperCase(), book.getIsbn().toUpperCase(),
+		 * book.getEditorial().toUpperCase(), book.getAuthor().toUpperCase() };
+		 */
+		
 	}
 
 	@Override
@@ -49,10 +56,22 @@ public class BooksTableModel extends AbstractTableModel {
 
 	public void removeRow(int filaSeleccionada) {
 		listaLibros.remove(filaSeleccionada);
+		fireTableDataChanged();
 		// TODO comprueba que la tabla se actualiza sin este dato
 	}
-
-	public void updateBook(int selectedRow, Book bookSelected) {
-		listaLibros.set(selectedRow, bookSelected);
+	
+	public void insertRow(Book book) {
+		listaLibros.add(book);
+		fireTableDataChanged();
+		// TODO comprueba que la tabla se actualiza con este dato
 	}
+	public void updateRow(int selectedRow, Book bookSelected) {
+		listaLibros.set(selectedRow, bookSelected);
+		fireTableDataChanged();
+	}
+	/*
+	 * public void setColumnValueGetters(Function<Book, Object>[]
+	 * columnValueGetters) { this.columnValueGetters = columnValueGetters;
+	 * fireTableStructureChanged(); }
+	 */
 }
