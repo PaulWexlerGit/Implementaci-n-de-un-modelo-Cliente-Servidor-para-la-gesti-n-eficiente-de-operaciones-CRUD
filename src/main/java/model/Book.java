@@ -32,7 +32,7 @@ public class Book implements Serializable {
 	private String editorial; // editorial
 	@Column(name = "isbn", unique = true)
 	private String isbn; // ISBN del libro
-	@Column(name = "lent")
+	@Column(name = "lent", columnDefinition = "boolean default false")
 	private boolean lent; // true si se ha prestado, false si no
 
 	@OneToMany(mappedBy = "book", cascade = CascadeType.ALL, fetch = FetchType.EAGER)

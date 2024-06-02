@@ -1,29 +1,54 @@
 
-k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ó©Üùÿÿÿÿ
+F
+java:S1604´"(Make this anonymous inner class a lambda(³‡à8§±„şü1
+E
+java:S1604½"(Make this anonymous inner class a lambda(çĞ«}8§±„şü1
+K
+java:S1604É"(Make this anonymous inner class a lambda(©ò°¢üÿÿÿÿ8¨±„şü1
+F
+java:S1604Ö"(Make this anonymous inner class a lambda(¨ª§µ8¨±„şü1
+m	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…Æû8¨±„şü1
+r	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿ8©±„şü1
+r	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿ8©±„şü1
+m	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¿ÿ°8ª±„şü1
+s	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿ8ª±„şü1
+s	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‡¬Çÿÿÿÿÿ8ª±„şü1
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•8ª±„şü1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìƒÒäıÿÿÿÿ8«±„şü1
+s	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÄÒÊÿÿÿÿÿ8«±„şü1
 H
-java:S1199?"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199J"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199E"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199Y"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199\"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199b"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199I"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199k"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199M"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199u"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199R"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199V"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199`"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199d"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199j"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-p	java:S116"VRename this field "textField_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ş‡şÿÿÿÿ
+java:S1199~"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199‡"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199‘"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199›"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+P
+java:S1199¤"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
+P
+java:S1199²"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
+P
+java:S1199»"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
+P
+java:S1199Ç"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1
+P
+java:S1199Ô"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1
+h
+java:S1192?"FDefine a constant instead of duplicating this literal "Error" 4 times.(«¹¥Èúÿÿÿÿ8¯±„şü1
 M
-java:S11354"2Complete the task associated to this TODO comment.(«¹¥Èúÿÿÿÿ
-S
-java:S1128">Remove this unused import 'library.controller.BookController'.(…İÒt
-=
-java:S1128"'Remove this unused import 'model.Book'.(åšñ
+java:S1135?"2Complete the task associated to this TODO comment.(«¹¥Èúÿÿÿÿ
+Q
+java:S1128"4Remove this unused import 'javax.swing.JScrollPane'.(Ê¹“ı8Ë±„şü1

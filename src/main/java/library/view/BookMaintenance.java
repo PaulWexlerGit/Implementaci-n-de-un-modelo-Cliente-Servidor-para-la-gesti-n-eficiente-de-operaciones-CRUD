@@ -16,6 +16,7 @@ import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 
 import library.controller.BookController;
+import library.view.tablemodels.BooksTableModel;
 import model.Book;
 import java.awt.GridLayout;
 import java.awt.GridBagLayout;
@@ -75,7 +76,6 @@ public class BookMaintenance extends JDialog {
 				@Override
 				public void mouseClicked(MouseEvent e) {
 					rowSelected();
-
 					showDetailBook();
 
 				}

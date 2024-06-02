@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved BookMaintenance View">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/BooksTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/BooksTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/UsersTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/UsersTableModel.java" afterDir="false" />
+    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved UserMaintenance View">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5790ca6b57a6680af1ae5ae2cf75d437a7945cb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5790ca6b57a6680af1ae5ae2cf75d437a7945cb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4299d4dfa0db2475942b6eade99837f863bfc35" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4299d4dfa0db2475942b6eade99837f863bfc35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +176,7 @@
       <workItem from="1716834780680" duration="209000" />
       <workItem from="1716841029102" duration="176000" />
       <workItem from="1717177343405" duration="97000" />
+      <workItem from="1717177449063" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit ++">
       <option name="closed" value="true" />
@@ -202,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716841192500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improved UserMaintenance View">
+      <option name="closed" value="true" />
+      <created>1717177497795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717177497796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +232,8 @@
     <MESSAGE value="Initial commit ++" />
     <MESSAGE value="Added View &amp; Controller and renamed to English" />
     <MESSAGE value="Improved BookMaintenance View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved BookMaintenance View" />
+    <MESSAGE value="Improved UserMaintenance View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved UserMaintenance View" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

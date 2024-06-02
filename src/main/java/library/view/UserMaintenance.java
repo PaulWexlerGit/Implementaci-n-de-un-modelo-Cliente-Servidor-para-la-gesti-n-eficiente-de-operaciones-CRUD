@@ -23,6 +23,7 @@ import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
 
 import library.controller.UserController;
+import library.view.tablemodels.UsersTableModel;
 import model.User;
 import javax.swing.JPasswordField;
 import javax.swing.JScrollPane;
