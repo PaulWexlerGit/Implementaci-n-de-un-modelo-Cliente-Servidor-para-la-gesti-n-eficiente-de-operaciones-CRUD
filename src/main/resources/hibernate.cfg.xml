@@ -5,7 +5,8 @@
     <session-factory>
         <!-- Configuration of the database connection -->
         <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mariadb://localhost:3306/Biblioteca?createDatabaseIfNotExist=true</property>
+        <property name="connection.url">jdbc:mariadb://localhost:3306/Biblioteca?createDatabaseIfNotExist=true
+        </property>
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
 

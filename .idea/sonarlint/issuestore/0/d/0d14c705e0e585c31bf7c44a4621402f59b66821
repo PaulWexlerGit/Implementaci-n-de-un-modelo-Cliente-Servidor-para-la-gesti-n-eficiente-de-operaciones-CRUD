@@ -1,53 +1,53 @@
 
-?
-java:S5411£"(Use a primitive boolean expression here.(§Š’¥
-w
-java:S14880"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ÚµŸß
-P
-java:S1143–"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
-P
-java:S1143"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
-P
-java:S1143¨"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
-P
-java:S1143¯"4Remove this throw statement from this finally block.(¤­—Îşÿÿÿÿ
-Z
-java:S6208Š"CMerge the previous cases into this one using comma-separated label.(ÕÇğ
-Y
-java:S1163–"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
-Y
-java:S1163"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
-Y
-java:S1163¨"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
-Y
-java:S1163¯"=Refactor this code to not throw exceptions in finally blocks.(¤­—Îşÿÿÿÿ
-P
-java:S1118":Add a private constructor to hide the implicit public one.(şÄãÜ
-V	java:S125+"<This block of commented-out lines of code should be removed.(¨³óìøÿÿÿÿ
-Q	java:S1254"<This block of commented-out lines of code should be removed.(“ÇĞ®
-Q	java:S125F"<This block of commented-out lines of code should be removed.(—ë
-V	java:S125N"<This block of commented-out lines of code should be removed.(ÇêˆÀúÿÿÿÿ
-Q	java:S125R"<This block of commented-out lines of code should be removed.(µôŞÏ
-h
-java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¢ãï¦
-Q	java:S125Y"<This block of commented-out lines of code should be removed.(½­Úà
-r
-java:S2737d"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
-n
-java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
-a
-java:S1301}"KReplace this "switch" statement by "if" statements to increase readability.(óÒÌ·
-7	java:S131}""Add a default case to this switch.(óÒÌ·
-8	java:S131…""Add a default case to this switch.(Óğ²
-s
-java:S2737–"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
-s
-java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
-s
-java:S2737¨"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
-s
-java:S2737¯"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
-E
-java:S2093p"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-Ü
-java:S6541]"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 3 to 2, Number of Variables from 12 to 6.(¢ãï¦
+e
+java:S5411¢"(Use a primitive boolean expression here.(§Š’¥J$773afbc2-f910-4a80-a317-1706ee5c083b
+
+java:S1488/"aImmediately return this expression instead of assigning it to the temporary variable "respuesta".(ÚµŸßJ$aca72bb8-0de9-4a6d-bd87-ec840e38a079
+v
+java:S1143•"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$fd2d699c-927e-4833-998d-a4179b1d37a6
+v
+java:S1143œ"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$17dac89e-6185-4baa-a43d-f03afb049d65
+v
+java:S1143§"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$09319af2-4a8e-4802-9227-0c50ce86aeb7
+v
+java:S1143®"4Remove this throw statement from this finally block.(¤­—ÎşÿÿÿÿJ$d27bbff1-3c7e-49d3-b405-627cdb503247
+€
+java:S6208‰"CMerge the previous cases into this one using comma-separated label.(ÕÇğJ$8cf49def-62a8-40f9-812c-aebe610fe2ee
+
+java:S1163•"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$f2b3af4e-8fd4-41bd-83b9-3b13b8f75195
+
+java:S1163œ"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$1cd6fc15-0fbe-4c41-8ba0-2afd7f827826
+
+java:S1163§"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$099e7705-9121-4e42-8bd1-5a84716e0103
+
+java:S1163®"=Refactor this code to not throw exceptions in finally blocks.(¤­—ÎşÿÿÿÿJ$452fb8de-0e6c-4b4a-a170-72ac89c66a40
+v
+java:S1118":Add a private constructor to hide the implicit public one.(şÄãÜJ$04d9f4ff-f7c6-4df3-a9c4-e777bd49a604
+|	java:S125*"<This block of commented-out lines of code should be removed.(¨³óìøÿÿÿÿJ$796335c6-8d4a-4cc8-bb86-87d8cab525f8
+w	java:S1253"<This block of commented-out lines of code should be removed.(“ÇĞ®J$9951ca01-c812-4e2b-917a-f59ae7ef1fc9
+w	java:S125E"<This block of commented-out lines of code should be removed.(—ëJ$4962590a-7308-4966-9e06-2209dbfe76e2
+|	java:S125M"<This block of commented-out lines of code should be removed.(ÇêˆÀúÿÿÿÿJ$c33f8785-ad53-4cd4-b6c7-d8bec51fce34
+w	java:S125Q"<This block of commented-out lines of code should be removed.(µôŞÏJ$6f0832d0-4dc8-4a1b-bdea-42b5f6f08b36
+
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(¢ãï¦J$127ea779-0253-4a91-bd27-fbec7a7204c7
+w	java:S125X"<This block of commented-out lines of code should be removed.(½­ÚàJ$df7bbc3a-db84-4fb0-a32d-43afde1a84bc
+˜
+java:S2737c"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$f4d1f8b0-8b7c-4bed-820f-df159c7d1762
+”
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™ûJ$f761e16c-3c03-4a21-a75e-ad82fc591e73
+‡
+java:S1301|"KReplace this "switch" statement by "if" statements to increase readability.(óÒÌ·J$171b8940-8afd-4627-8e47-c14e87b6d30c
+]	java:S131|""Add a default case to this switch.(óÒÌ·J$70091cb8-006d-4ae3-b8a9-9f064c1469a1
+^	java:S131„""Add a default case to this switch.(Óğ²J$9810cff4-7eb4-4250-9586-4094f5b6bd36
+™
+java:S2737•"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$00754668-9361-411c-a22d-592009c2ab5e
+™
+java:S2737œ"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$0194d08a-8471-4897-878d-8c9703697c97
+™
+java:S2737§"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$8f6de323-43f9-40ab-b5f8-a5f36f71ca9d
+™
+java:S2737®"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—ÎşÿÿÿÿJ$3953c5dd-d26e-45c0-8d6d-a4b69084116b
+k
+java:S2093o"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$c86891da-23dc-42c9-9861-28ea95c675b4
+‚
+java:S6541\"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 89 to 64, Complexity from 20 to 14, Nesting Level from 3 to 2, Number of Variables from 12 to 6.(¢ãï¦J$be5a78b9-4635-4f7f-b867-43ba824ba5f0

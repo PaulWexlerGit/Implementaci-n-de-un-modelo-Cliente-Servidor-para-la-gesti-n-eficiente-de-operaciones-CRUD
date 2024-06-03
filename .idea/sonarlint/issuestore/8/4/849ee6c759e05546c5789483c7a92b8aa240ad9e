@@ -1,5 +1,12 @@
 
-k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áé¦ìûÿÿÿÿ
-f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìâ©õ
 C
-java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
+java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
+E
+java:S16043"(Make this anonymous inner class a lambda(™†ôÔ8ˆ½ÎÔı1
+J
+java:S1604<"(Make this anonymous inner class a lambda(º×ªáúÿÿÿÿ8ˆ½ÎÔı1
+E
+java:S1604H"(Make this anonymous inner class a lambda(ı×²»8ˆ½ÎÔı1
+E
+java:S1604Q"(Make this anonymous inner class a lambda(––º”8ˆ½ÎÔı1
+r	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àøŸşÿÿÿÿ8ˆ½ÎÔı1

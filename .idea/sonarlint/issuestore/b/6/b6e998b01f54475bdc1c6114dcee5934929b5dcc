@@ -1,0 +1,54 @@
+
+?
+java:S1604°"(Make this anonymous inner class a lambda(ı½–Š
+f	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ë¬Ì
+k	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ
+k	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ
+f	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–
+k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÑ½şÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•
+l	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿ
+g	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Èìà
+H
+java:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199r"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199ª"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199="-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199m"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199G"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199P"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199Z"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199c"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199v"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199¥"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199ˆ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199’"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199›"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199¹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+]
+java:S1192„"FDefine a constant instead of duplicating this literal "Error" 4 times.(¾‹«å
+b
+java:S3252)"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Ì—İ
+H
+java:S1905",Remove this unnecessary cast to "ArrayList".(®¹´Şúÿÿÿÿ

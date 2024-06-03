@@ -1,34 +1,20 @@
 package library.view;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Insets;
-import java.util.ArrayList;
-
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.border.EmptyBorder;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-
 import library.controller.BookController;
 import library.controller.LoanController;
-import library.controller.UserController;
 import library.view.tablemodels.BooksTableModel;
 import model.Book;
 import model.Loan;
-import model.User;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Date;
-import java.awt.event.ActionEvent;
+import java.util.ArrayList;
 
 public class ReturnMaintenance extends JDialog {
 
@@ -183,19 +169,24 @@ public class ReturnMaintenance extends JDialog {
 
 	protected void returnBook() {
 		if (tableBooks.getSelectedRow() >= 0) {
-			Book book = ((BooksTableModel) tableBooks.getModel()).getBookByRow(tableBooks.getSelectedRow());
 			try {
-				Loan loan = LoanController.getLoanByBook(book);
-				loan.setReturnDate(new Date(System.currentTimeMillis()));
-				book.setLent(false);
-				BookController.transaction();
-				LoanController.updateLoan(loan);
-				BookController.updateBook(book);
-				BookController.commit();
+				Book book = ((BooksTableModel) tableBooks.getModel()).getBookByRow(tableBooks.getSelectedRow());
+				LoanController.doReturn(book);
 				((BooksTableModel) tableBooks.getModel()).removeRow(tableBooks.getSelectedRow());
+				JOptionPane.showMessageDialog(contentPanel, "Libro devuelto !!", "Información",
+						JOptionPane.INFORMATION_MESSAGE, null);
 			} catch (Exception e) {
 				JOptionPane.showMessageDialog(contentPanel, e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE, null);
 			}
+			/*
+			 * try { Loan loan = LoanController.getLoanByBook(book); loan.setReturnDate(new
+			 * Date(System.currentTimeMillis())); book.setLent(false);
+			 * BookController.transaction(); LoanController.updateLoan(loan);
+			 * BookController.updateBook(book); BookController.commit(); ((BooksTableModel)
+			 * tableBooks.getModel()).removeRow(tableBooks.getSelectedRow()); } catch
+			 * (Exception e) { JOptionPane.showMessageDialog(contentPanel, e.getMessage(),
+			 * "Error", JOptionPane.ERROR_MESSAGE, null); }
+			 */
 		} else {
 			JOptionPane.showMessageDialog(contentPanel, "No ha seleccionado libro", "Error", JOptionPane.ERROR_MESSAGE,
 					null);

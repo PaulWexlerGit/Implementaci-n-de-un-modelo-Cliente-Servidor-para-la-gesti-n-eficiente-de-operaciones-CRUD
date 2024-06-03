@@ -6,8 +6,8 @@ import model.Loan;
 import model.User;
 
 public class MainClient {
-	public static void main(String[] args) {
-		System.out.println("hi world");
+    public static void main(String[] args) {
+        System.out.println("hi world");
 //        Book book1 = new Book("book1", "author1", "editorial1", "isbn1"); // crea un libro
 //        try {
 //            book1= (Book) ClienteDAO.create(book1); //crea el libro
@@ -22,17 +22,17 @@ public class MainClient {
 //        } catch (Exception e) {
 //            System.err.println(e.getMessage());
 //        }
-		User user1 = new User("user1", "user1", "user1@user1", "user1", false); // crea un usuario
-		Book book1 = new Book("book1", "author1", "editorial1", "isbn1"); // crea un libro
-		try {
-			user1 = (User) ClientDAO.create(user1);
-			book1 = (Book) ClientDAO.create(book1);
-			Loan loan1 = new Loan(new java.sql.Date(System.currentTimeMillis()), null, "test", book1, user1); // crea un
-																												// prestamo
-			ClientDAO.create(loan1); // crea el prestamo
-		} catch (Exception e) {
-			System.err.println(e.getMessage());
-		}
+        User user1 = new User("user1", "user1", "user1@user1", "user1", false); // crea un usuario
+        Book book1 = new Book("book1", "author1", "editorial1", "isbn1"); // crea un libro
+        try {
+            user1 = (User) ClientDAO.create(user1);
+            book1 = (Book) ClientDAO.create(book1);
+            Loan loan1 = new Loan(new java.sql.Date(System.currentTimeMillis()), null, "test", book1, user1); // crea un
+            // prestamo
+            ClientDAO.create(loan1); // crea el prestamo
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
 //        User user2 = new User("test2", "test2", "test2", "test2", false); // crea otro usuario
 //        Book book2 = new Book("book2", "author2", "editorial2", "isbn2"); // crea otro libro
 //        Book book3 = new Book("book3", "author3", "editorial3", "isbn3"); // crea otro libro
@@ -78,5 +78,5 @@ public class MainClient {
 //        } catch (Exception e) {
 //            System.err.println(e.getMessage());
 //        }
-	}
+    }
 }
