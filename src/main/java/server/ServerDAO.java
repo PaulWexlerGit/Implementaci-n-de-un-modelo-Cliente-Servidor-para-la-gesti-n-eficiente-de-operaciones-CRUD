@@ -13,7 +13,7 @@ public class ServerDAO {
     private static Transaction tx = null;
     private static Session session = null;
 
-    public static Object create(Object object, boolean autocommit) throws Exception {
+    public static synchronized Object create(Object object, boolean autocommit) throws Exception {
         try {
             if (autocommit) {
                 session = HibernateUtil.getSessionFactory().openSession();
@@ -35,7 +35,7 @@ public class ServerDAO {
         }
     }
 
-    public static Object update(Object object, Boolean autocommit) throws Exception {
+    public static synchronized Object update(Object object, Boolean autocommit) throws Exception {
         try {
             if (autocommit) {
                 session = HibernateUtil.getSessionFactory().openSession();
@@ -56,15 +56,15 @@ public class ServerDAO {
         }
     }
 
-    public static Object update(Object object) throws Exception {
+    public static synchronized Object update(Object object) throws Exception {
         return update(object, true);
     }
 
-    public static List<Object> readList(Object hql) throws Exception {
+    public static synchronized List<Object> readList(Object hql) throws Exception {
         return readList(hql, true);
     }
 
-    public static List<Object> readList(Object hql, boolean autocommit) throws Exception {
+    public static synchronized List<Object> readList(Object hql, boolean autocommit) throws Exception {
         List<Object> results = null;
         Query<Object> query = null;
         try {
@@ -86,11 +86,11 @@ public class ServerDAO {
         }
     }
 
-    public static Object readObject(Object hql) throws Exception {
+    public static synchronized Object readObject(Object hql) throws Exception {
         return readObject(hql, true);
     }
 
-    public static Object readObject(Object hql, boolean autocommit) throws Exception {
+    public static synchronized Object readObject(Object hql, boolean autocommit) throws Exception {
         Object results = null;
         Query<Object> query = null;
         try {
@@ -140,7 +140,7 @@ public class ServerDAO {
 //        return clases;
 //    }
 
-    public static void transaction() {
+    public static synchronized void transaction() {
         try {
             session = HibernateUtil.getSessionFactory().openSession();
             tx = session.beginTransaction();
@@ -153,7 +153,7 @@ public class ServerDAO {
         }
     }
 
-    public static void commit() throws Exception {
+    public static synchronized void commit() throws Exception {
         try {
             tx.commit();
             session.close();
@@ -165,7 +165,7 @@ public class ServerDAO {
         }
     }
 
-    public static void delete(Object object, Boolean autocommit) {
+    public static synchronized void delete(Object object, Boolean autocommit) {
         try {
             if (autocommit) {
                 session = HibernateUtil.getSessionFactory().openSession();
@@ -185,7 +185,19 @@ public class ServerDAO {
         }
     }
 
-    public static void delete(Object object) throws Exception {
+    public static synchronized void delete(Object object) throws Exception {
         delete(object, true);
+    }
+
+    public static void rollback() {
+        try {
+            tx.rollback();
+            session.close();
+        } catch (HibernateException he) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            throw he;
+        }
     }
 }

@@ -1,54 +1,54 @@
 
-?
-java:S1604°"(Make this anonymous inner class a lambda(ı½–Š
-f	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ë¬Ì
-k	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ
-k	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ
-f	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–
-k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ
-k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÑ½şÿÿÿÿ
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿ
-g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•
-l	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿ
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿ
-g	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Èìà
-H
-java:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199r"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199ª"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199="-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199m"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199G"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199P"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199Z"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199c"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199v"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199¥"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199ˆ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199’"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199›"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199¹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-]
-java:S1192„"FDefine a constant instead of duplicating this literal "Error" 4 times.(¾‹«å
-b
-java:S3252)"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Ì—İ
-H
-java:S1905",Remove this unnecessary cast to "ArrayList".(®¹´Şúÿÿÿÿ
+e
+java:S1604°"(Make this anonymous inner class a lambda(ı½–ŠJ$b48b87fc-649c-4383-86d0-5e633ad2202e
+Œ	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ë¬ÌJ$20c4b380-aebc-45d0-8dc2-8e786abb2879
+‘	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿJ$74e06aa2-ae80-4dbc-a63a-a25baaede41d
+‘	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿJ$85aa1f5a-934c-4912-a7a5-952a48e98537
+Œ	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–J$504ea9a9-a468-4380-ad50-88b28eb6597f
+‘	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿJ$e7f417eb-675f-4a4b-8859-b83a2eb130c1
+‘	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÑ½şÿÿÿÿJ$4bbab631-2c34-4c73-8a49-0e0633be6022
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿJ$a54f56f6-581d-478a-a6cb-70e8a67c398a
+	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•J$872102eb-fc20-4ec1-a721-375c0f8469c0
+’	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿJ$c1554462-fd88-4b9b-8f20-ba95580d2bd7
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿJ$464f5cd0-5de2-41a4-a0da-499ae2f41b8c
+	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ÈìàJ$13f187a8-b351-4a2d-9970-5da4b41309cc
+n
+java:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$e38ee5d5-cb5d-4f72-8f29-9ba8fc9b1ce4
+n
+java:S1199r"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$75833bea-66b1-42f9-ad12-48a0531c19ee
+o
+java:S1199ª"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$374fb006-41e0-40cc-a671-8a44701819d0
+n
+java:S1199="-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$ef20be35-8e75-4895-9f66-7d3335d6b25b
+n
+java:S1199m"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$80ae15e2-5f0c-4a55-a029-bc3e0836b45c
+n
+java:S1199G"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$abc7e4cb-71c7-4920-87d9-7a796b9b38f8
+n
+java:S1199P"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$1cc38b28-1cc6-44aa-a1ba-408e1ce20763
+n
+java:S1199Z"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$82e53bf9-d597-4888-88a6-db7f7d0085f2
+n
+java:S1199c"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$2eddbaa1-fa94-4559-b5cf-ccc3dd347bc3
+n
+java:S1199v"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$424c0676-32dc-42d3-b432-2fd719e324ed
+o
+java:S1199¥"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$8898ea9b-e132-4a81-95bc-9f410039fcc6
+n
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$7e0cc9c0-9b1f-4993-a4f4-add7c3254405
+o
+java:S1199ˆ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$5d5c925c-479f-4cc2-b9fd-2bb1bc62390c
+o
+java:S1199’"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$64935196-0624-404e-b65d-c7d73be1daac
+o
+java:S1199›"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$085f8b53-5f65-4e09-b3d6-7a0243a4519e
+o
+java:S1199®"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$94a7e1ea-0ee3-4e0c-ac9a-48405ae4a583
+o
+java:S1199¹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$c1c2b0d4-7433-4796-ae1e-52acebf6ef1d
+ƒ
+java:S1192„"FDefine a constant instead of duplicating this literal "Error" 4 times.(¾‹«åJ$e817320e-dd13-455e-af07-c815b0b80913
+ˆ
+java:S3252)"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Ì—İJ$6647a8ca-00d1-4f8e-8b4a-143c33486689
+n
+java:S1905",Remove this unnecessary cast to "ArrayList".(®¹´ŞúÿÿÿÿJ$bc55a6bb-a61b-4c60-9dbc-c739921814cd

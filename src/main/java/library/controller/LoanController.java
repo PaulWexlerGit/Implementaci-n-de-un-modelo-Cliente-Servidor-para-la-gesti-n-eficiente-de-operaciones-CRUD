@@ -30,9 +30,9 @@ public class LoanController {
 	public static void doLoan(Loan loan) throws Exception {
 		ClientDAO.transaction();
 		loan = LoanController.create(loan);
-		loan.getBook().setLent(true);
-		BookController.updateBook(loan.getBook());
-		ClientDAO.commit();
+			loan.getBook().setLent(true);
+			BookController.updateBook(loan.getBook());
+			ClientDAO.commit();
 	}
 
 	public static void doReturn(Book book) throws Exception {

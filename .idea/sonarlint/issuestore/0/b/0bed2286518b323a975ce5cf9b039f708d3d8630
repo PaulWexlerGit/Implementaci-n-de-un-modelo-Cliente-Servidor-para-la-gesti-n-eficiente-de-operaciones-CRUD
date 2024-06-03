@@ -1,59 +1,59 @@
 
 ‚
-java:S1488A"gImmediately return this expression instead of assigning it to the temporary variable "buffDescifrados".(Í©Ü¾ÿÿÿÿÿ
+java:S1488:"gImmediately return this expression instead of assigning it to the temporary variable "buffDescifrados".(Í©Ü¾ÿÿÿÿÿ
 z
-java:S1488U"_Immediately return this expression instead of assigning it to the temporary variable "resumen".(–„Áÿøÿÿÿÿ
-[	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-b	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú8ŠáÁµû1
-g	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ØˆÒ•úÿÿÿÿ8‰áÁµû1
-[	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-b	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú8ŠáÁµû1
-b	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(ã§¦¢8ŠÿÕİû1
-`	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(˜÷Ñ–ûÿÿÿÿ
-g	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(ƒ÷ÁÅûÿÿÿÿ8ŠÿÕİû1
-[	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
-[	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(êÓØŞ
+java:S1488N"_Immediately return this expression instead of assigning it to the temporary variable "resumen".(–„Áÿøÿÿÿÿ
+[	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+b	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú8ŠáÁµû1
+g	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(ØˆÒ•úÿÿÿÿ8‰áÁµû1
+b	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú8ŠÿÕİû1
+[	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+b	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ã§¦¢8¸Æãùı1
+`	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(˜÷Ñ–ûÿÿÿÿ
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(ƒ÷ÁÅûÿÿÿÿ8ŠÿÕİû1
+b	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú8ŠáÁµû1
+[	java:S112m"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(ÓÃ£ú
+[	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(êÓØŞ
 J
-java:S1143z"4Remove this throw statement from this finally block.(ÓÃ£ú
+java:S1143s"4Remove this throw statement from this finally block.(ÓÃ£ú
 7
-java:S1643a"Use a StringBuilder instead.(ğÔ‰Ÿûÿÿÿÿ
+java:S1643Z"Use a StringBuilder instead.(ğÔ‰Ÿûÿÿÿÿ
 1
-java:S1643c"Use a StringBuilder instead.(…ÀÌ_
+java:S1643\"Use a StringBuilder instead.(…ÀÌ_
 S
-java:S1163z"=Refactor this code to not throw exceptions in finally blocks.(ÓÃ£ú
+java:S1163s"=Refactor this code to not throw exceptions in finally blocks.(ÓÃ£ú
 P
-java:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
+java:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
 r
-java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(¤­—Îşÿÿÿÿ
 _
-java:S21472"DCombine this catch with the one at line 48, which has the same body.(¾šİüÿÿÿÿ
+java:S2147+"DCombine this catch with the one at line 41, which has the same body.(¾šİüÿÿÿÿ
 Z
-java:S21474"DCombine this catch with the one at line 50, which has the same body.(ßá®
+java:S2147-"DCombine this catch with the one at line 43, which has the same body.(ßá®
 _
-java:S21476"DCombine this catch with the one at line 52, which has the same body.(­Ñˆ®ûÿÿÿÿ
+java:S2147/"DCombine this catch with the one at line 45, which has the same body.(­Ñˆ®ûÿÿÿÿ
 _
-java:S21478"DCombine this catch with the one at line 54, which has the same body.(ªâŞ¿üÿÿÿÿ
+java:S21471"DCombine this catch with the one at line 47, which has the same body.(ªâŞ¿üÿÿÿÿ
 _
-java:S2147E"DCombine this catch with the one at line 67, which has the same body.(¾šİüÿÿÿÿ
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(¾šİüÿÿÿÿ
 f
-java:S2147G"DCombine this catch with the one at line 69, which has the same body.(ªâŞ¿üÿÿÿÿ8šÿÕİû1
+java:S2147@"DCombine this catch with the one at line 62, which has the same body.(ªâŞ¿üÿÿÿÿ8šÿÕİû1
 Z
-java:S2147I"DCombine this catch with the one at line 71, which has the same body.(ßá®
+java:S2147B"DCombine this catch with the one at line 64, which has the same body.(ßá®
 f
-java:S2147K"DCombine this catch with the one at line 73, which has the same body.(­Ñˆ®ûÿÿÿÿ8šÿÕİû1
+java:S2147D"DCombine this catch with the one at line 66, which has the same body.(­Ñˆ®ûÿÿÿÿ8šÿÕİû1
 E
-java:S1197U"*Move the array designators [] to the type.(–„Áÿøÿÿÿÿ
-h	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üòÒôşÿÿÿÿ
+java:S1197N"*Move the array designators [] to the type.(–„Áÿøÿÿÿÿ
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üòÒôşÿÿÿÿ
 [
-java:S2147s"ECombine this catch with the one at line 113, which has the same body.(Ãôş•
+java:S2147l"ECombine this catch with the one at line 106, which has the same body.(Ãôş•
 E
-java:S2093l"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-Y	java:S125"<This block of commented-out lines of code should be removed.(“šÿã8¬áÁµû1
+java:S2093e"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+X	java:S125z"<This block of commented-out lines of code should be removed.(“šÿã8¬áÁµû1

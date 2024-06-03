@@ -38,6 +38,13 @@ public class ClientDAO {
         operation.setObject(null);
         envia(operation);
     }
+    public static void rollback() throws Exception {
+        autocommit = true;
+        Operation operation = new Operation();
+        operation.setOperacion("rollback");
+        operation.setObject(null);
+        envia(operation);
+    }
 
     public static Object create(Object object) throws Exception {// ,Boolean autocommit) throws Exception {
         Operation operation = new Operation();

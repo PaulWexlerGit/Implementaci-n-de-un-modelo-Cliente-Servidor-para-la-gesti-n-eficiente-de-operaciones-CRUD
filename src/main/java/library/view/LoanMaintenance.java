@@ -271,7 +271,6 @@ public class LoanMaintenance extends JDialog {
                 Book book = ((BooksTableModel) tableBooks.getModel()).getBookByRow(tableBooks.getSelectedRow());
                 User user = ((UsersTableModel) tableUsers.getModel()).getUserByRow(tableUsers.getSelectedRow());
                 Loan loan = new Loan(new Date(System.currentTimeMillis()), null, "", book, user);
-                book.setLent(true);
                 try {
 					LoanController.doLoan(loan);
 					((BooksTableModel) tableBooks.getModel()).removeRow(tableBooks.getSelectedRow());

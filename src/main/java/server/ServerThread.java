@@ -169,6 +169,28 @@ class ServerThread extends Thread {
                             haHabidoExcepcion = true;
                         }
                         break;
+                    case "rollback":
+                        try {
+                            ServerDAO.rollback();
+                            answer.setStatus("OK");
+                            answer.setObject(null);
+                            answer.setOperacion("rollback");
+                            cipher.init(Cipher.ENCRYPT_MODE, claveObj.getClave());
+                            sealedObject = new SealedObject(answer, cipher);
+                            oos = new ObjectOutputStream(socketCliente.getOutputStream());
+                            oos.writeObject(sealedObject);
+                            enTransaccion = false;
+                        } catch (Exception e) {
+                            answer.setStatus("KO");
+                            answer.setObject(e);
+                            answer.setOperacion("rollback");
+                            cipher.init(Cipher.ENCRYPT_MODE, claveObj.getClave());
+                            sealedObject = new SealedObject(answer, cipher);
+                            oos = new ObjectOutputStream(socketCliente.getOutputStream());
+                            oos.writeObject(sealedObject);
+                            haHabidoExcepcion = true;
+                        }
+                        break;
                     case "delete":
                         try {
                             ServerDAO.delete(operation.getObject(), operation.getAutocommit());

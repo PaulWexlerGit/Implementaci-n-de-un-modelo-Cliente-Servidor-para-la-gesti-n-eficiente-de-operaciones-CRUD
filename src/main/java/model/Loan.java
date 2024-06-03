@@ -39,7 +39,6 @@ public class Loan implements Serializable {
         this.comment = comment;
         this.book = book;
         this.user = user;
-        this.book.setLent(true);
     }
 
     public Loan(Date date, Date returnDate, String comment) {

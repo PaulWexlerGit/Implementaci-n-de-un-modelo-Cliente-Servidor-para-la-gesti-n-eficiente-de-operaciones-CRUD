@@ -4,58 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved LoanMaintenance &amp; ReturnMaintenance View">
+    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved ReturnView">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14c705e0e585c31bf7c44a4621402f59b66821" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14c705e0e585c31bf7c44a4621402f59b66821" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25ed4418d0b5582ba7ec9e697b329e549d9f5f0e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dc01d857802411149045473fdfde9bb39634b1a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dc01d857802411149045473fdfde9bb39634b1a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7792f17c00773a03db9610c8d92a7b36bc1d1285" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a2c025280ecbc7b2e3365298629cf3865f959dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81a501197b2ab8c04a2289dcb56457a1acdadf19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849ee6c759e05546c5789483c7a92b8aa240ad9e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/849ee6c759e05546c5789483c7a92b8aa240ad9e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85a5587a308b9daa52d6304cc4532d399fbc2f6e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f60e3f1eaa6c4c694f12bdf8cf3c2c505e658ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af1e076d35db850390b62d5020f8116995f33f05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be80150205c2037ce210bc32ae0fd25f1237d036" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fea2d6d2dea148c337ca45778eed26ad3acf51" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fea2d6d2dea148c337ca45778eed26ad3acf51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6e998b01f54475bdc1c6114dcee5934929b5dcc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6e998b01f54475bdc1c6114dcee5934929b5dcc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be101092e27a9d82da75f65037917eb62fe3ce03" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be101092e27a9d82da75f65037917eb62fe3ce03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6be2a421ec4758ba5cafaa8db2b23b31ffdf139" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6be2a421ec4758ba5cafaa8db2b23b31ffdf139" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7816e1f74ae9e63bf9b6507c98e1c73573f68ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/25ed4418d0b5582ba7ec9e697b329e549d9f5f0e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/7792f17c00773a03db9610c8d92a7b36bc1d1285" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7a2c025280ecbc7b2e3365298629cf3865f959dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/1/81a501197b2ab8c04a2289dcb56457a1acdadf19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/85a5587a308b9daa52d6304cc4532d399fbc2f6e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f60e3f1eaa6c4c694f12bdf8cf3c2c505e658ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/af1e076d35db850390b62d5020f8116995f33f05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be80150205c2037ce210bc32ae0fd25f1237d036" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e7816e1f74ae9e63bf9b6507c98e1c73573f68ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef8ef02ffec214ec003c3102794f01a6c97603dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef8ef02ffec214ec003c3102794f01a6c97603dc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cliente/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cliente/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exec/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exec/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/LoanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/BookMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/LibraryView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/ReturnMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/ReturnMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/UserMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/tablemodels/BooksTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/tablemodels/BooksTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/tablemodels/UsersTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/tablemodels/UsersTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Loan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/KeyGeneratorClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +62,10 @@
   "keyToString": {
     "Application.GenerarClave.executor": "Run",
     "Application.LibraryView.executor": "Run",
+    "Application.LoanMaintenance.executor": "Debug",
     "Application.MainClient.executor": "Run",
     "Application.MainCliente.executor": "Run",
+    "Application.ReturnMaintenance.executor": "Run",
     "Application.Server.executor": "Run",
     "Application.Servidor.executor": "Run",
     "Application.exec.MainCliente.executor": "Run",
@@ -129,12 +97,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.LibraryView">
-    <configuration name="GenerarClave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.GenerarClave" />
+    <configuration name="LibraryView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.view.LibraryView" />
       <module name="BibliotecaProyectoFinal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="library.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="library.view.LibraryView" />
+    <configuration name="LoanMaintenance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.view.LoanMaintenance" />
       <module name="BibliotecaProyectoFinal" />
       <extension name="coverage">
         <pattern>
@@ -168,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.MainCliente" />
+    <configuration name="ReturnMaintenance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="library.view.ReturnMaintenance" />
       <module name="BibliotecaProyectoFinal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="library.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +163,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LoanMaintenance" />
+      <item itemvalue="Application.ReturnMaintenance" />
       <item itemvalue="Application.LibraryView" />
-      <item itemvalue="Application.GenerarClave" />
       <item itemvalue="Application.MainClient" />
-      <item itemvalue="Application.MainCliente" />
       <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LibraryView" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.LoanMaintenance" />
+        <item itemvalue="Application.ReturnMaintenance" />
         <item itemvalue="Application.MainClient" />
-        <item itemvalue="Application.GenerarClave" />
-        <item itemvalue="Application.MainCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +214,8 @@
       <workItem from="1717358899820" duration="277000" />
       <workItem from="1717359182704" duration="135000" />
       <workItem from="1717402356315" duration="1686000" />
+      <workItem from="1717436961566" duration="100000" />
+      <workItem from="1717437927343" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit ++">
       <option name="closed" value="true" />
@@ -287,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717359067736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Improved ReturnView">
+      <option name="closed" value="true" />
+      <created>1717437007980</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717437007980</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +289,19 @@
     <MESSAGE value="Improved BookMaintenance View" />
     <MESSAGE value="Improved UserMaintenance View" />
     <MESSAGE value="Improved LoanMaintenance &amp; ReturnMaintenance View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved LoanMaintenance &amp; ReturnMaintenance View" />
+    <MESSAGE value="Improved ReturnView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved ReturnView" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
