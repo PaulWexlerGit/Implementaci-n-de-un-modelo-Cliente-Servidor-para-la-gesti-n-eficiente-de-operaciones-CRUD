@@ -1,0 +1,34 @@
+@startuml
+!theme vibrant
+class Book {
+  - id: Long
+  - title: String
+  - author: String
+  - editorial: String
+  - isbn: String
+  - lent: boolean
+  - loans: List<Loan>
+}
+
+class User {
+  - id: Long
+  - name: String
+  - surname: String
+  - email: String
+  - password: String
+  - admin: boolean
+  - loans: List<Loan>
+}
+
+class Loan {
+  - id: Long
+  - date: Date
+  - returnDate: Date
+  - comment: String
+  - book: Book
+  - user: User
+}
+
+Book "1" - "*" Loan
+Loan "*" - "1" User
+@enduml

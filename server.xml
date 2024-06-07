@@ -1,0 +1,15 @@
+<assembly>
+    <id>server-jar</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.outputDirectory}</directory>
+            <outputDirectory>/</outputDirectory>
+            
+        </fileSet>
+    </fileSets>
+    <mainClass>server.Server</mainClass>
+</assembly>

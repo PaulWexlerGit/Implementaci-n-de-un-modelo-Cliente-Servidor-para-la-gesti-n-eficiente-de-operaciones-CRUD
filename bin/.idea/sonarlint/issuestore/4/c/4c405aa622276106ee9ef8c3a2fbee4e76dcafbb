@@ -1,0 +1,7 @@
+
+=
+java:S2189""Add an end condition to this loop.(ü§è½ùÿÿÿÿ
+@	java:S106"+Replace this use of System.err by a logger.(•¬ªĞ
+L	java:S106"+Replace this use of System.out by a logger.(ôÊ÷Íÿÿÿÿÿ8ÍüÕİû1
+E	java:S106"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ
+L	java:S106 "+Replace this use of System.out by a logger.(®îÓêüÿÿÿÿ8ÎüÕİû1

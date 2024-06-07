@@ -1,43 +1,39 @@
 
 v
-java:S1141-"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$17bc7de8-425d-4826-acd9-26aa4197822d
+java:S1141."5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$aa018b92-d303-4bdc-bd10-e9a971918fe2
 v
-java:S1141B"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$b19b6219-6a73-4d09-aaea-da2706f65c1f
+java:S1141C"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$b5359b74-a3ab-40d4-9a05-9105f1a5afa9
 v
-java:S1141W"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$b902aeab-9c05-47fc-af19-738c86d520b8
+java:S1141X"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$ae2d1f8f-bb4d-48e3-82f6-74333ff10f62
 v
-java:S1141l"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$1baf74d0-f498-4456-8faf-e0b0a47a9890
+java:S1141m"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$1857c3e4-de55-42aa-a099-c6d43b24766c
 w
-java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$d2130542-3d7d-466f-904b-afe4259ae978
+java:S1141‚"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$6528adaf-1217-47e5-be16-ca4f945ef0ba
 w
-java:S1141—"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$aa824345-0d64-4c9f-abfa-75fe4a751ef2
+java:S1141˜"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$b5df1b86-e769-487a-bebb-aa6f1bdf59da
 w
-java:S1141­"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$3b0e40fc-d75e-4d86-918d-0d737a20ae04
-~
-java:S1141Ã"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ëäèúı1J$ffabe031-bd72-430f-99a2-d7f18d2f6596
-’
-java:S1192¬"IDefine a constant instead of duplicating this literal "rollback" 3 times.(š¶ãùÿÿÿÿ8ìëúı1J$34e0534c-c297-4428-b321-0d61e82379d4
-Š
-java:S1192A"IDefine a constant instead of duplicating this literal "readList" 3 times.(ÆÓŠèøÿÿÿÿJ$4830f3eb-a800-4ade-98e1-09897a74fd7e
+java:S1141®"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿJ$38b1d7ea-8c98-4d40-83cf-6a5fb3b41a53
 „
-java:S1192–"GDefine a constant instead of duplicating this literal "commit" 3 times.(Ğ²œÈJ$11e5e2e9-9f45-4dff-9532-a8ea01409fd0
+java:S1192—"GDefine a constant instead of duplicating this literal "commit" 3 times.(Ğ²œÈJ$c2a98056-a01b-4376-a0d6-47cd7cf9a580
 ˆ
-java:S1192k"GDefine a constant instead of duplicating this literal "update" 3 times.(ÕÔºúşÿÿÿÿJ$deec88c8-deef-4a10-ade3-f576f0f53d93
-ƒ
-java:S1192,"GDefine a constant instead of duplicating this literal "create" 3 times.(ÕÇğJ$78eb09c1-4b5d-4b5c-bec9-0ce80e1d0bff
+java:S1192l"GDefine a constant instead of duplicating this literal "update" 3 times.(ÕÔºúşÿÿÿÿJ$f5b911fa-c8e9-4de1-8ce9-3b58a13e7894
 ‰
-java:S1192Â"GDefine a constant instead of duplicating this literal "delete" 3 times.(Øšë¢ıÿÿÿÿJ$621ab38f-e75b-45dd-8a40-4ee5f68c0498
-
-java:S1192€"LDefine a constant instead of duplicating this literal "transaction" 3 times.(ê×şÿÿÿÿJ$ded570a2-2b14-4715-813e-a97f73cf4c2c
+java:S1192­"GDefine a constant instead of duplicating this literal "delete" 3 times.(Øšë¢ıÿÿÿÿJ$a7cc4d6b-740e-496f-b827-27f0fc5ed43d
 Œ
-java:S1192V"KDefine a constant instead of duplicating this literal "readObject" 3 times.(ò¿Ğ¢øÿÿÿÿJ$12a81686-ca38-4130-91ce-c6f23a1f5436
-
-java:S1450"\Remove the "enTransaccion" field and declare it as a local variable in the relevant methods.(Ğ‚»ÅşÿÿÿÿJ$2e7b9304-af19-4ae5-a4f1-2e2749a9ce1f
+java:S1192W"KDefine a constant instead of duplicating this literal "readObject" 3 times.(ò¿Ğ¢øÿÿÿÿJ$1b4a9915-3ea9-46b0-922e-f2f6ae4301e1
+Š
+java:S1192B"IDefine a constant instead of duplicating this literal "readList" 3 times.(ÆÓŠèøÿÿÿÿJ$a2c199b0-48f5-4cc6-aef7-8b865481f3cb
+ƒ
+java:S1192-"GDefine a constant instead of duplicating this literal "create" 3 times.(ÕÇğJ$d7535dbb-9497-44cf-8170-9fdc765edffd
 
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(“–ışJ$fcce481e-4870-432d-aabf-b346e3d94376
-]	java:S131+""Add a default case to this switch.(‡Ş€J$fc324679-aa8a-4dfe-8df1-ca136c21ec01
-f	java:S106Ù"+Replace this use of System.err by a logger.(›º…vJ$6d219533-0698-4efb-b8c1-3d9b719b47c6
-x	java:S125Û"<This block of commented-out lines of code should be removed.(±¯€¤J$11ff9bab-e9cd-4ded-8826-6de8a04e0f33
-g	java:S106â"+Replace this use of System.out by a logger.(ö¬J$b2ad397e-68fb-4540-9f2c-3bf260156c6a
-g	java:S106é"+Replace this use of System.out by a logger.(ö¬J$f7980b78-9da4-4eae-b897-cb892f957072
-g	java:S106ğ"+Replace this use of System.err by a logger.(•¬ªĞJ$5b1585b8-bc65-48b6-b7c5-04373c03e256
+java:S1192"LDefine a constant instead of duplicating this literal "transaction" 3 times.(ê×şÿÿÿÿJ$34d07da7-5530-420b-8a9c-a5f0d1b99f53
+
+java:S1450"\Remove the "enTransaccion" field and declare it as a local variable in the relevant methods.(Ğ‚»ÅşÿÿÿÿJ$be7b9b3e-da14-42c6-b800-5da7d0dc1c48
+
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(“–ışJ$a0764594-2c45-4493-954e-a96d1ad91f2c
+]	java:S131,""Add a default case to this switch.(‡Ş€J$a65afb64-9b3a-4aa8-a6dc-93f4059ba4dc
+f	java:S106Ä"+Replace this use of System.err by a logger.(›º…vJ$0aa5a342-7eb5-4b2e-8bf7-863d83f0fb23
+x	java:S125Ç"<This block of commented-out lines of code should be removed.(±¯€¤J$b9d16de9-5b24-42d5-8221-d4c48f26de6e
+g	java:S106Î"+Replace this use of System.out by a logger.(ö¬J$252f0c62-a302-4bf9-aee9-e65c51c12c79
+g	java:S106Õ"+Replace this use of System.out by a logger.(ö¬J$239f22c4-e9e9-4bc9-b4b9-bc7bd47e08f5
+g	java:S106Ü"+Replace this use of System.err by a logger.(•¬ªĞJ$cffb134b-cdcd-4676-8d05-33a501bbe66c

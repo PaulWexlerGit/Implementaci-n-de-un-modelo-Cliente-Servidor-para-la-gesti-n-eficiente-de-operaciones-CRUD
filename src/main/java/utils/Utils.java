@@ -1,122 +1,129 @@
 package utils;
 
-import javax.crypto.BadPaddingException;
-import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+
 public class Utils {
-    public static KeyGeneratorClass leerClaveSimetrica() throws Exception {
-        KeyGeneratorClass clave = null;
-        File file = new File(Config.KEY_FILE_NAME);
-        if (!file.exists()) {
-            KeyGeneratorClass.generate();
-        }
-        try (FileInputStream fis = new FileInputStream(Config.KEY_FILE_NAME);
-             ObjectInputStream ois = new ObjectInputStream(fis);) {
-            clave = (KeyGeneratorClass) ois.readObject();
-        } catch (Exception ex) {
-            throw ex;
-        }
-        return clave;
-    }
+	public static KeyGeneratorClass leerClaveSimetrica() throws Exception {
+		KeyGeneratorClass clave = null;
+		File file = new File(Config.KEY_FILE_NAME);
+		if (!file.exists()) {
+			KeyGeneratorClass.generate();
+		}
+		try (FileInputStream fis = new FileInputStream(Config.KEY_FILE_NAME);
+				ObjectInputStream ois = new ObjectInputStream(fis);) {
+			clave = (KeyGeneratorClass) ois.readObject();
+		} catch (Exception ex) {
+			throw ex;
+		}
+		return clave;
+	}
 
-    public static byte[] stringToByteArray(String cadena) {
-        return cadena.getBytes();
-    }
+	public static byte[] stringToByteArray(String cadena) {
+		return cadena.getBytes();
+	}
 
-    public static String byteArrayToString(byte[] bytes) {
-        return new String(bytes);
-    }
+	public static String byteArrayToString(byte[] bytes) {
+		return new String(bytes);
+	}
 
-    public static byte[] cifrar(byte[] bytes, KeyGeneratorClass keyObj) throws Exception {
-        try {
-            Cipher c = Cipher.getInstance(Config.TRANSFORMATION);
-            c.init(Cipher.ENCRYPT_MODE, keyObj.getClave());
-            return c.doFinal(bytes);
-        } catch (NoSuchAlgorithmException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (NoSuchPaddingException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (IllegalBlockSizeException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (BadPaddingException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (InvalidKeyException ex) {
-            throw new Exception(ex.getMessage());
-        }
-    }
+	public static byte[] cifrar(byte[] bytes, KeyGeneratorClass keyObj) throws Exception {
+		try {
+			Cipher c = Cipher.getInstance(Config.TRANSFORMATION);
+			c.init(Cipher.ENCRYPT_MODE, keyObj.getClave());
+			return c.doFinal(bytes);
+		} catch (NoSuchAlgorithmException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (NoSuchPaddingException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (IllegalBlockSizeException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (BadPaddingException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (InvalidKeyException ex) {
+			throw new Exception(ex.getMessage());
+		}
+	}
 
-    public static byte[] descifrar(byte[] bytes, KeyGeneratorClass keyObj) throws Exception {
-        try {
-            Cipher cipher = Cipher.getInstance(Config.TRANSFORMATION);
-            cipher.init(Cipher.DECRYPT_MODE, keyObj.getClave());
-            byte[] buffDescifrados = cipher.doFinal(bytes);
-            return buffDescifrados;
-        } catch (NoSuchAlgorithmException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (NoSuchPaddingException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (InvalidKeyException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (IllegalBlockSizeException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (BadPaddingException ex) {
-            throw new Exception(ex.getMessage());
-        }
-    }
+	public static byte[] descifrar(byte[] bytes, KeyGeneratorClass keyObj) throws Exception {
+		try {
+			Cipher cipher = Cipher.getInstance(Config.TRANSFORMATION);
+			cipher.init(Cipher.DECRYPT_MODE, keyObj.getClave());
+			byte[] buffDescifrados = cipher.doFinal(bytes);
+			return buffDescifrados;
+		} catch (NoSuchAlgorithmException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (NoSuchPaddingException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (InvalidKeyException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (IllegalBlockSizeException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (BadPaddingException ex) {
+			throw new Exception(ex.getMessage());
+		}
+	}
 
-    public static byte[] getHash(String algoritmo, byte[] bytes) throws Exception {
-        try {
-            MessageDigest md;
-            md = MessageDigest.getInstance(algoritmo);
-            md.update(bytes);
-            byte resumen[] = md.digest();
-            return resumen;
-        } catch (NoSuchAlgorithmException ex) {
-            throw new Exception("Algoritmo Hash no encontrado");
-        }
-    }
+	public static byte[] getHash(String algoritmo, byte[] bytes) throws Exception {
+		try {
+			MessageDigest md;
+			md = MessageDigest.getInstance(algoritmo);
+			md.update(bytes);
+			byte resumen[] = md.digest();
+			return resumen;
+		} catch (NoSuchAlgorithmException ex) {
+			throw new Exception("Algoritmo Hash no encontrado");
+		}
+	}
 
-    public static String Hexadecimal(byte[] resumen) {
-        String hex = "";
-        for (byte element : resumen) {
-            String h = Integer.toHexString(element & 0xFF) + ":";
-            if (h.length() == 1) {
-                hex += "0";
-            }
-            hex += h;
-        }
-        return hex.toUpperCase();
-    }// Hexadecimal
+	public static String Hexadecimal(byte[] resumen) {
+		String hex = "";
+		for (byte element : resumen) {
+			String h = Integer.toHexString(element & 0xFF) + ":";
+			if (h.length() == 1) {
+				hex += "0";
+			}
+			hex += h;
+		}
+		return hex.toUpperCase();
+	}// Hexadecimal
 
-    // para ficheros:
-    public static void grabarFichero(String nombre, byte[] ficheroBytes) throws Exception {
-        File ficheroCifrado;
-        BufferedOutputStream fichSalida = null;
-        try {
-            ficheroCifrado = new File(nombre);
-            fichSalida = new BufferedOutputStream(new FileOutputStream(ficheroCifrado));
-            fichSalida.write(ficheroBytes);
-            fichSalida.flush();
-        } catch (FileNotFoundException ex) {
-            throw new Exception(ex.getMessage());
-        } catch (IOException ex) {
-            throw new Exception(ex.getMessage());
-        } finally {
-            if (fichSalida != null) {
-                try {
-                    fichSalida.close();
-                } catch (IOException ex) {
-                    throw new Exception(ex.getMessage());
-                }
-            }
-        }
-    }
+	// para ficheros:
+	public static void grabarFichero(String nombre, byte[] ficheroBytes) throws Exception {
+		File ficheroCifrado;
+		BufferedOutputStream fichSalida = null;
+		try {
+			ficheroCifrado = new File(nombre);
+			fichSalida = new BufferedOutputStream(new FileOutputStream(ficheroCifrado));
+			fichSalida.write(ficheroBytes);
+			fichSalida.flush();
+		} catch (FileNotFoundException ex) {
+			throw new Exception(ex.getMessage());
+		} catch (IOException ex) {
+			throw new Exception(ex.getMessage());
+		} finally {
+			if (fichSalida != null) {
+				try {
+					fichSalida.close();
+				} catch (IOException ex) {
+					throw new Exception(ex.getMessage());
+				}
+			}
+		}
+	}
 }
 /*
  * KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");

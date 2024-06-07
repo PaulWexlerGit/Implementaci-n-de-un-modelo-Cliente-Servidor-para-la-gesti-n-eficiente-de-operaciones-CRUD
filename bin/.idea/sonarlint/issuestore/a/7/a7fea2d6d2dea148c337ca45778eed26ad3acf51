@@ -1,0 +1,39 @@
+
+d
+java:S1192B"IDefine a constant instead of duplicating this literal "readList" 3 times.(ÆÓŠèøÿÿÿÿ
+^
+java:S1192—"GDefine a constant instead of duplicating this literal "commit" 3 times.(Ğ²œÈ
+b
+java:S1192l"GDefine a constant instead of duplicating this literal "update" 3 times.(ÕÔºúşÿÿÿÿ
+]
+java:S1192-"GDefine a constant instead of duplicating this literal "create" 3 times.(ÕÇğ
+c
+java:S1192­"GDefine a constant instead of duplicating this literal "delete" 3 times.(Øšë¢ıÿÿÿÿ
+h
+java:S1192"LDefine a constant instead of duplicating this literal "transaction" 3 times.(ê×şÿÿÿÿ
+f
+java:S1192W"KDefine a constant instead of duplicating this literal "readObject" 3 times.(ò¿Ğ¢øÿÿÿÿ
+P
+java:S1141."5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141C"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141X"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+P
+java:S1141m"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141‚"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141˜"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141®"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+w
+java:S1450"\Remove the "enTransaccion" field and declare it as a local variable in the relevant methods.(Ğ‚»Åşÿÿÿÿ
+h
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(“–ış
+7	java:S131,""Add a default case to this switch.(‡Ş€
+@	java:S106Ä"+Replace this use of System.err by a logger.(›º…v
+R	java:S125Æ"<This block of commented-out lines of code should be removed.(±¯€¤
+A	java:S106Í"+Replace this use of System.out by a logger.(ö¬
+A	java:S106Ô"+Replace this use of System.out by a logger.(ö¬
+A	java:S106Û"+Replace this use of System.err by a logger.(•¬ªĞ

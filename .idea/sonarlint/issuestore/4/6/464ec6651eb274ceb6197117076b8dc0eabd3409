@@ -1,52 +1,61 @@
 
-F
-java:S1604¥"(Make this anonymous inner class a lambda(³‡à8§±„şü1
-E
-java:S1604®"(Make this anonymous inner class a lambda(çĞ«}8§±„şü1
-K
-java:S1604º"(Make this anonymous inner class a lambda(©ò°¢üÿÿÿÿ8¨±„şü1
-F
-java:S1604Ç"(Make this anonymous inner class a lambda(¨ª§µ8¨±„şü1
-m	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…Æû8¨±„şü1
-r	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿ8©±„şü1
-r	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿ8©±„şü1
-m	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¿ÿ°8ª±„şü1
-r	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿ8ª±„şü1
-r	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‡¬Çÿÿÿÿÿ8ª±„şü1
-n	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•8ª±„şü1
-s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìƒÒäıÿÿÿÿ8«±„şü1
-s	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÄÒÊÿÿÿÿÿ8«±„şü1
-H
-java:S1199;"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199J"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199Ÿ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199S"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199\"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199f"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199o"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199x"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199‚"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-I
-java:S1199Œ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-P
-java:S1199•"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
-P
-java:S1199£"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
-P
-java:S1199¬"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1
-P
-java:S1199¸"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1
-P
-java:S1199Å"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1
-h
-java:S11920"FDefine a constant instead of duplicating this literal "Error" 4 times.(«¹¥Èúÿÿÿÿ8¯±„şü1
-M
-java:S11350"2Complete the task associated to this TODO comment.(«¹¥Èúÿÿÿÿ
+l
+java:S1604Á"(Make this anonymous inner class a lambda(³‡à8§±„şü1J$1e310fe5-570b-48a6-baa9-da0f941f629a
+k
+java:S1604Ë"(Make this anonymous inner class a lambda(çĞ«}8§±„şü1J$7e68571c-1fe4-4950-9123-5c7739b0e10d
+q
+java:S1604Ö"(Make this anonymous inner class a lambda(©ò°¢üÿÿÿÿ8¨±„şü1J$ad5f0759-1f0f-442f-bacf-fa72a172c703
+l
+java:S1604â"(Make this anonymous inner class a lambda(¨ª§µ8¨±„şü1J$abe835b0-b134-4a5f-92f9-f5a7b9719717
+“	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…Æû8¨±„şü1J$5e1e7d67-55ef-4a57-a608-2acd8b9e2327
+˜	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÇ›úÿÿÿÿ8ª±„şü1J$c31325bb-a023-4f49-9ba3-29a0c0902191
+˜	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ˜†³úÿÿÿÿ8ª±„şü1J$e43c8bb3-27a7-4ea9-8aba-c0266c29a523
+”	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¿ÿ°8ª±„şü1J$e7d9d4e7-d6b4-45a4-8b03-ec8d26df2666
+™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğü’ÿÿÿÿÿ8è–ƒ¢ÿ1J$1d42d3fe-ca03-4995-83ae-274fa1b6ed48
+™	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‡¬Çÿÿÿÿÿ8è–ƒ¢ÿ1J$dc647388-4574-4ddf-8ddb-5791750645b6
+”	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜şÿ•8è–ƒ¢ÿ1J$ffd946be-b209-4b19-8cb5-d6fea2acc5fa
+™	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìƒÒäıÿÿÿÿ8«±„şü1J$2e84d12a-5abf-4514-8745-30bc6133328e
+™	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÄÒÊÿÿÿÿÿ8«±„şü1J$b0f7561c-7126-44d3-bc36-b8dfefbf3f37
+q
+java:S5411Í"(Use a primitive boolean expression here.(Ô’ÆŞüÿÿÿÿ8è–ƒ¢ÿ1J$9099cd9b-e4c1-4a48-bc8e-ad42e94419bd
+n
+java:S1199T"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$917f4a8d-02dd-42eb-a564-f576e089d031
+n
+java:S1199f"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$bc47a923-84a4-4e05-92d7-54ee5ac3c48c
+o
+java:S1199»"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$c9aaea7e-46cd-4558-abd8-d6e9b1203e90
+n
+java:S1199o"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$3e5601b3-d8e3-4906-8336-02186cd487d0
+n
+java:S1199x"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$36687d64-5172-489e-a0b4-fd38bc137ae6
+o
+java:S1199‚"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$b154b069-b3b0-44bf-835a-5b0ec2a00dbe
+o
+java:S1199‹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$36835f40-f548-443b-adb8-f1c6dddc5b40
+o
+java:S1199”"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$86975c7b-18d5-476c-aa82-d19a7d6fd502
+o
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$1f3a1f57-3b7e-49b2-8afe-b22058dbffa1
+o
+java:S1199¨"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿJ$3ca169b0-426d-40ae-bc3f-e0cb147de9b4
+v
+java:S1199±"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1J$93c0ed00-7ced-4e2a-8ef1-799300d07196
+v
+java:S1199¿"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1J$4be8efeb-b49f-4814-bdf7-5cb9bfd4b867
+v
+java:S1199É"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8®±„şü1J$026fb5b1-c3e6-40db-bdd8-f019da85ea9d
+v
+java:S1199Ô"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1J$bb3bd766-42d6-4774-a09d-931eb002a095
+v
+java:S1199à"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¯±„şü1J$5062a002-5436-4f1d-9f03-29d0d14de478
+–
+java:S1192„"MDefine a constant instead of duplicating this literal "InformaciÃ³n" 3 times.(ãƒ†ÿÿÿÿÿ8é–ƒ¢ÿ1J$d0dc3c51-3a16-4aa1-bb62-bb3f43709af8
+‰
+java:S1192L"FDefine a constant instead of duplicating this literal "Error" 5 times.(èÁ·Û8é–ƒ¢ÿ1J$0095e9e7-e26b-43c4-b3c7-423654cc86dc
+ƒ	java:S125b"<This block of commented-out lines of code should be removed.(÷ù”Ãùÿÿÿÿ8õ–ƒ¢ÿ1J$7f247b85-1859-4e58-9cad-48280517733c
+s
+java:S1128"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8†—ƒ¢ÿ1J$787ca41a-16c7-443e-a9cb-28355217e944
+€
+java:S1128"8Remove this unused import 'javax.swing.WindowConstants'.(Åİ×Óÿÿÿÿÿ8†—ƒ¢ÿ1J$f923f2fd-ca2e-407b-a542-5fcc86473fe5
+
+java:S1128 "ERemove this unused import 'library.view.tablemodels.BooksTableModel'.(¹¤¾¾ûÿÿÿÿ8‡—ƒ¢ÿ1J$6058fe24-b7b1-4703-816c-331be35ae2e5

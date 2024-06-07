@@ -4,24 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved ReturnView">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bed2286518b323a975ce5cf9b039f708d3d8630" afterDir="false" />
+    <list default="true" id="b16316e7-9b73-454a-b4b8-f8e607865aa6" name="Changes" comment="Improved LoanController &amp; added rollback in ServerThread">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08a2b54316535e342e8819193b003d593beae409" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14c705e0e585c31bf7c44a4621402f59b66821" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14c705e0e585c31bf7c44a4621402f59b66821" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/135c2a468292481c38ccebe1d307741e26213540" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c43e1e5bb8dacd2b5ab18f8393f87041347bfee" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c43e1e5bb8dacd2b5ab18f8393f87041347bfee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d2f54b7cbbf981d8bc6bf98af91a7c7a29974c8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464ec6651eb274ceb6197117076b8dc0eabd3409" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/889e26766302619f1512d4bea6cd5965662aabb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/565bd7d1c169625f5a700d3136fcf1b79b51e28f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/622948fbf7815c6afd5c3dd5bcf47152114baeb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73db3fb4f7389d6bb4552c7031bccc408726ee5d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73db3fb4f7389d6bb4552c7031bccc408726ee5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a6133abe4cfc5b4cd0f4cc1db7f2005b52503fe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fea2d6d2dea148c337ca45778eed26ad3acf51" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fea2d6d2dea148c337ca45778eed26ad3acf51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae4d77c2cb445b56676df20a59fbfe0c76c2ccf9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae4d77c2cb445b56676df20a59fbfe0c76c2ccf9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6e998b01f54475bdc1c6114dcee5934929b5dcc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6e998b01f54475bdc1c6114dcee5934929b5dcc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be101092e27a9d82da75f65037917eb62fe3ce03" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be101092e27a9d82da75f65037917eb62fe3ce03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6be2a421ec4758ba5cafaa8db2b23b31ffdf139" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6be2a421ec4758ba5cafaa8db2b23b31ffdf139" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c65e6ac5f5f2a695f93cd4fa05ac2fd7ab93ab03" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef8ef02ffec214ec003c3102794f01a6c97603dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef8ef02ffec214ec003c3102794f01a6c97603dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f285b5e61956059603f75430231e23e71852a37f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa88c264450ca0f3164661914f844e15ee2c0d48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/08a2b54316535e342e8819193b003d593beae409" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/135c2a468292481c38ccebe1d307741e26213540" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3d2f54b7cbbf981d8bc6bf98af91a7c7a29974c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/565bd7d1c169625f5a700d3136fcf1b79b51e28f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/622948fbf7815c6afd5c3dd5bcf47152114baeb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9a6133abe4cfc5b4cd0f4cc1db7f2005b52503fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/6/c65e6ac5f5f2a695f93cd4fa05ac2fd7ab93ab03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/a/fa88c264450ca0f3164661914f844e15ee2c0d48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cliente/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cliente/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/controller/LoanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Loan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,35 +68,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GenerarClave.executor": "Run",
-    "Application.LibraryView.executor": "Run",
-    "Application.LoanMaintenance.executor": "Debug",
-    "Application.MainClient.executor": "Run",
-    "Application.MainCliente.executor": "Run",
-    "Application.ReturnMaintenance.executor": "Run",
-    "Application.Server.executor": "Run",
-    "Application.Servidor.executor": "Run",
-    "Application.exec.MainCliente.executor": "Run",
-    "Maven.BibliotecaProyectoFinal [clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/paul/IdeaProjects/BibliotecaProyectoFinalTFG",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GenerarClave.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoanMaintenance.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnMaintenance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exec.MainCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BibliotecaProyectoFinal [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paul/IdeaProjects/BibliotecaProyectoFinalTFG&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -96,7 +109,7 @@
       <recent name="comun" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryView">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="LibraryView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.view.LibraryView" />
       <module name="BibliotecaProyectoFinal" />
@@ -171,8 +184,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LibraryView" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.LibraryView" />
         <item itemvalue="Application.LoanMaintenance" />
         <item itemvalue="Application.ReturnMaintenance" />
         <item itemvalue="Application.MainClient" />
@@ -215,7 +228,11 @@
       <workItem from="1717359182704" duration="135000" />
       <workItem from="1717402356315" duration="1686000" />
       <workItem from="1717436961566" duration="100000" />
-      <workItem from="1717437927343" duration="3591000" />
+      <workItem from="1717437927343" duration="3961000" />
+      <workItem from="1717514404252" duration="138000" />
+      <workItem from="1717516514805" duration="1009000" />
+      <workItem from="1717592587062" duration="44000" />
+      <workItem from="1717789759546" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit ++">
       <option name="closed" value="true" />
@@ -265,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717437007980</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Improved LoanController &amp; added rollback in ServerThread">
+      <option name="closed" value="true" />
+      <created>1717441723293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717441723293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,14 +315,16 @@
     <MESSAGE value="Improved UserMaintenance View" />
     <MESSAGE value="Improved LoanMaintenance &amp; ReturnMaintenance View" />
     <MESSAGE value="Improved ReturnView" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved ReturnView" />
+    <MESSAGE value="Improved LoanController &amp; added rollback in ServerDAO" />
+    <MESSAGE value="Improved LoanController &amp; added rollback in ServerThread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved LoanController &amp; added rollback in ServerThread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/library/view/LoanMaintenance.java</url>
-          <line>270</line>
+          <line>234</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

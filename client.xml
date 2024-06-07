@@ -1,0 +1,17 @@
+<assembly>
+    <id>client-jar</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.outputDirectory}</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>server/Server.class</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <mainClass>library.view.LibraryView</mainClass>
+</assembly>

@@ -1,22 +1,46 @@
 package library.view;
 
-import library.controller.BookController;
-import library.controller.LoanController;
-import library.view.tablemodels.BooksTableModel;
-import model.Book;
-import model.Loan;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.util.ArrayList;
+import java.util.Map;
 
-import javax.swing.*;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JComponent;
+import javax.swing.JDialog;
+import javax.swing.JInternalFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import java.awt.*;
-import java.awt.event.ActionEvent;
+import javax.swing.event.InternalFrameAdapter;
+import javax.swing.event.InternalFrameEvent;
+
+import library.controller.BookController;
+import library.controller.LoanController;
+import library.controller.UserController;
+import library.view.tablemodels.BooksTableModel;
+import model.Book;
+import model.Loan;
+import model.User;
 import java.awt.event.ActionListener;
 import java.sql.Date;
-import java.util.ArrayList;
+import java.awt.event.ActionEvent;
+import javax.swing.border.TitledBorder;
+import javax.swing.border.EtchedBorder;
+import java.awt.Color;
 
-public class ReturnMaintenance extends JDialog {
+public class ReturnMaintenance extends JInternalFrame {
 
 	private static final long serialVersionUID = 1L;
 	private final JPanel contentPanel = new JPanel();
@@ -25,23 +49,33 @@ public class ReturnMaintenance extends JDialog {
 	private JTable tableBooks;
 	private ArrayList<Book> books;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		try {
-			ReturnMaintenance dialog = new ReturnMaintenance();
-			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-			dialog.setVisible(true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+	
 
 	/**
 	 * Create the dialog.
 	 */
-	public ReturnMaintenance() {
+	public ReturnMaintenance(Map<String,JComponent> listaVentanas) {
+		setTitle("Devuelve");
+		if (listaVentanas.get(this.getTitle())!=null) {
+			this.dispose();
+			return ;
+		}
+		else {
+			listaVentanas.put(this.getTitle(), this);
+		}
+		setResizable(true);
+		
+		setMaximizable(true);
+		setClosable(true);
+		addInternalFrameListener(new InternalFrameAdapter() {
+			@Override
+			public void internalFrameClosing(InternalFrameEvent e) {
+				if (listaVentanas.size() > 0) {
+					listaVentanas.remove(e.getInternalFrame().getTitle());
+					// e.getInternalFrame().dispose();
+				}
+			}
+		});
 		setBounds(100, 100, 450, 300);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -61,19 +95,16 @@ public class ReturnMaintenance extends JDialog {
 				buttonPane.add(okReturn);
 				getRootPane().setDefaultButton(okReturn);
 			}
-			{
-				JButton cancelButton = new JButton("Cancel");
-				cancelButton.setActionCommand("Cancel");
-				buttonPane.add(cancelButton);
-			}
 		}
 		contentPanel.setLayout(new BorderLayout(0, 0));
 		{
 			JPanel panelBooks = new JPanel();
-			contentPanel.add(panelBooks);
+			panelBooks.setMinimumSize(new Dimension(100, 100));
+			contentPanel.add(panelBooks, BorderLayout.NORTH);
 			panelBooks.setLayout(new BoxLayout(panelBooks, BoxLayout.Y_AXIS));
 			{
 				JPanel panelLookBooks = new JPanel();
+				panelLookBooks.setBorder(new TitledBorder(null, "Criterios de b\u00FAsqueda", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 				panelLookBooks.setName("");
 				panelBooks.add(panelLookBooks);
 				GridBagLayout gbl_panelLookBooks = new GridBagLayout();
@@ -122,7 +153,13 @@ public class ReturnMaintenance extends JDialog {
 			}
 			{
 				tableBooks = new JTable();
-				panelBooks.add(tableBooks);
+				tableBooks.setBorder(null);
+				//panelBooks.add(tableBooks);
+				JScrollPane spBooks = new JScrollPane(tableBooks);
+				spBooks.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, new Color(255, 255, 255), new Color(160, 160, 160)), "Libros Alquilados", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 0)));
+				spBooks.setPreferredSize(new Dimension(400, 100));
+				
+				contentPanel.add(spBooks, BorderLayout.SOUTH);
 			}
 			// MyCode:
 			tfTitle.getDocument().addDocumentListener(new DocumentListener() {
@@ -161,6 +198,7 @@ public class ReturnMaintenance extends JDialog {
 				books = (ArrayList<Book>) BookController.getAllLoanBooks();
 			} catch (Exception e) {
 				JOptionPane.showMessageDialog(contentPanel, e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE, null);
+				return;
 			}
 			BooksTableModel booksTableModel = new BooksTableModel(books);
 			tableBooks.setModel(booksTableModel);
@@ -173,20 +211,10 @@ public class ReturnMaintenance extends JDialog {
 				Book book = ((BooksTableModel) tableBooks.getModel()).getBookByRow(tableBooks.getSelectedRow());
 				LoanController.doReturn(book);
 				((BooksTableModel) tableBooks.getModel()).removeRow(tableBooks.getSelectedRow());
-				JOptionPane.showMessageDialog(contentPanel, "Libro devuelto !!", "Información",
-						JOptionPane.INFORMATION_MESSAGE, null);
+				JOptionPane.showMessageDialog(contentPanel, "Libro devuelto !!", "Información", JOptionPane.INFORMATION_MESSAGE, null);
 			} catch (Exception e) {
 				JOptionPane.showMessageDialog(contentPanel, e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE, null);
 			}
-			/*
-			 * try { Loan loan = LoanController.getLoanByBook(book); loan.setReturnDate(new
-			 * Date(System.currentTimeMillis())); book.setLent(false);
-			 * BookController.transaction(); LoanController.updateLoan(loan);
-			 * BookController.updateBook(book); BookController.commit(); ((BooksTableModel)
-			 * tableBooks.getModel()).removeRow(tableBooks.getSelectedRow()); } catch
-			 * (Exception e) { JOptionPane.showMessageDialog(contentPanel, e.getMessage(),
-			 * "Error", JOptionPane.ERROR_MESSAGE, null); }
-			 */
 		} else {
 			JOptionPane.showMessageDialog(contentPanel, "No ha seleccionado libro", "Error", JOptionPane.ERROR_MESSAGE,
 					null);
