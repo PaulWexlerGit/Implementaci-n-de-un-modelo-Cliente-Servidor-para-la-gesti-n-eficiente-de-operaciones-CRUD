@@ -1,9 +1,14 @@
 
-‰
-java:S1192"FDefine a constant instead of duplicating this literal "user1" 3 times.(şğøô8‘µ¯„û1J$813f38ba-e122-482c-a02c-a9bdf829d4d3
-r	java:S106
-"+Replace this use of System.out by a logger.(ïøšâûÿÿÿÿ8îÄ‡…ú1J$34839085-df14-45ca-aca4-9f5965248098
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8•µ¯„û1J$cb130564-b63d-4b55-8227-841710101eee
-r	java:S106""+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8ïÄ‡…ú1J$fda61de8-d59c-4aa8-a32f-0d00f6071a50
-~	java:S125("<This block of commented-out lines of code should be removed.(ÜÆùÏ8–µ¯„û1J$6969d7b1-f516-4c9e-9ac2-556320f7bccd
-~	java:S125:"<This block of commented-out lines of code should be removed.(ñ±™Œ8ñÄ‡…ú1J$c01750ff-4980-47c5-a037-4d98bcb6c2dc
+}
+java:S1854":Remove this useless assignment to local variable "book11".(Óß•ƒ8¬Œ«œ€2J$6b0e3de5-9838-44f5-b323-1dc800a2126f
+n
+java:S1481"+Remove this unused "book11" local variable.(ÆË”­8ÑÖºœ€2J$faeb1584-0433-4c4d-82ee-ad9a54e4a489
+r	java:S106"+Replace this use of System.out by a logger.(ïøšâûÿÿÿÿ8¬Œ«œ€2J$6c89fd46-1eaf-4b48-9c4d-8170d225ba4d
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¸§ÙËıÿÿÿÿ8­Œ«œ€2J$1693aca3-5f29-4bec-9d68-44d21c979248
+r	java:S106"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8­Œ«œ€2J$099a491b-5166-45fd-b634-071cc8beba21
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8®Œ«œ€2J$7a6979be-1909-4b47-9c51-4263e3f3e629
+~	java:S125A"<This block of commented-out lines of code should be removed.(ñ±™Œ8®Œ«œ€2J$4a604c0e-442d-46f1-b232-ead69b9e4fcc
+o
+java:S1128"'Remove this unused import 'model.Loan'.(ïêèúÿÿÿÿ8¯ê‘¾€2J$650adb8f-68d7-4189-a19d-557e462e2005
+j
+java:S1128"'Remove this unused import 'model.User'.(˜Ğ ñ8°ê‘¾€2J$09034db8-60a4-448b-8d95-875eaf01038a

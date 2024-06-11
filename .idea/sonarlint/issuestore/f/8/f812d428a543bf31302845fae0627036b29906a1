@@ -1,13 +1,15 @@
 
 t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇËÍðÿÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(Žª£üþÿÿÿÿ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇËÍðÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Žª£üþÿÿÿÿ
 G
-java:S1135?"2Complete the task associated to this TODO comment.(Á±Üq
+java:S1135A"2Complete the task associated to this TODO comment.(Á±Üq
 M
-java:S1135E"2Complete the task associated to this TODO comment.(›œ™Êúÿÿÿÿ
-Q	java:S125N"<This block of commented-out lines of code should be removed.(å¸¾þ
+java:S1135H"2Complete the task associated to this TODO comment.(›œ™Êúÿÿÿÿ
+Q	java:S125R"<This block of commented-out lines of code should be removed.(å¸¾þ
 >
-java:S1116\"Remove this empty statement.(Åñ­õþÿÿÿÿ8Ì½ãùý1
+java:S1116_"Remove this empty statement.(ôŸŽìúÿÿÿÿ8¤Ë‡¢ÿ1
 >
-java:S1116l"Remove this empty statement.(Åñ­õþÿÿÿÿ8Ï½ãùý1
+java:S1116m"Remove this empty statement.(ôŸŽìúÿÿÿÿ8¥Ë‡¢ÿ1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Íž8¥Ë‡¢ÿ1

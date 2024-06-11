@@ -1,27 +1,27 @@
 
-˜
-java:S1104"\Make ALGORITMO_KEYGEN a static final constant or non-public and provide accessors if needed.(‰Œ»›J$ba858a2f-1da0-4fc9-8c36-db3946542309
-•
-java:S1104"YMake KEY_FILE_NAME a static final constant or non-public and provide accessors if needed.(“™İJ$c45b0e43-513b-4187-93f1-74dbf217c0ab
-•
-java:S1104"TMake KEY_SIZE a static final constant or non-public and provide accessors if needed.(È’èÌøÿÿÿÿJ$3c46800e-6508-4e1d-b5d3-bbaff5a780ec
-–
-java:S1104	"ZMake TRANSFORMATION a static final constant or non-public and provide accessors if needed.(½½¡ÄJ$458e0a8c-9546-4399-9692-7d4777312270
-r
-java:S1444"6Make this "public static ALGORITMO_KEYGEN" field final(‰Œ»›J$0eeedc9b-fa62-4223-ab7d-1c61c77be7e4
-o
-java:S1444"3Make this "public static KEY_FILE_NAME" field final(“™İJ$c41d471e-acaf-49fd-9286-a6f100871fcc
-o
-java:S1444".Make this "public static KEY_SIZE" field final(È’èÌøÿÿÿÿJ$a7233c35-9832-4158-8f54-b002202def64
-p
-java:S1444	"4Make this "public static TRANSFORMATION" field final(½½¡ÄJ$80a9cfcb-22a4-4419-bf00-2c8357785f36
-—
-java:S3008"[Rename this field "ALGORITMO_KEYGEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Œ»›J$a9bb7e7b-682e-4c2c-9155-40c393ef105a
-”
-java:S3008"XRename this field "KEY_FILE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“™İJ$cc301400-4440-45b6-ae07-de606bbd867e
-”
-java:S3008"SRename this field "KEY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È’èÌøÿÿÿÿJ$f83a8f8d-ae40-4f2e-8c21-161412070211
-•
-java:S3008	"YRename this field "TRANSFORMATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½½¡ÄJ$4252260e-cade-48e3-b191-ec4c9987bd23
+Ÿ
+java:S1104"\Make ALGORITMO_KEYGEN a static final constant or non-public and provide accessors if needed.(‰Œ»›8ªÌŠ¢ÿ1J$8c465dfa-cceb-4d16-b8d5-196b6fe72d61
+œ
+java:S1104"YMake KEY_FILE_NAME a static final constant or non-public and provide accessors if needed.(“™İ8«ÌŠ¢ÿ1J$ce9c33f3-ecae-4a4b-8cfa-708f398a5be2
+œ
+java:S1104"TMake KEY_SIZE a static final constant or non-public and provide accessors if needed.(È’èÌøÿÿÿÿ8«ÌŠ¢ÿ1J$f6dca56c-aa5f-4b18-b9da-2c02c1452846
+
+java:S1104	"ZMake TRANSFORMATION a static final constant or non-public and provide accessors if needed.(½½¡Ä8«ÌŠ¢ÿ1J$7af46ad5-aa17-4d7a-900c-eecefdfcf718
+y
+java:S1444"6Make this "public static ALGORITMO_KEYGEN" field final(‰Œ»›8«ÌŠ¢ÿ1J$0b4da1e8-d3f9-4f8b-a37d-7e7ebb034f77
 v
-java:S1118":Add a private constructor to hide the implicit public one.(Óùÿ¿J$9556adfa-b818-4b7a-980c-1f954d1be4ea
+java:S1444"3Make this "public static KEY_FILE_NAME" field final(“™İ8«ÌŠ¢ÿ1J$18ba0494-a50e-47ae-beec-f265c7125b58
+v
+java:S1444".Make this "public static KEY_SIZE" field final(È’èÌøÿÿÿÿ8«ÌŠ¢ÿ1J$323309fe-7b64-4662-8ada-5b99b5b48e0a
+w
+java:S1444	"4Make this "public static TRANSFORMATION" field final(½½¡Ä8«ÌŠ¢ÿ1J$01ad0b63-e3f9-4928-87d4-e6e5688cfba0
+
+java:S3008"[Rename this field "ALGORITMO_KEYGEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Œ»›8«ÌŠ¢ÿ1J$4ea45e7a-fb3b-4849-bf0c-9760d1671b9b
+›
+java:S3008"XRename this field "KEY_FILE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“™İ8«ÌŠ¢ÿ1J$dc3f3d41-6cec-4c11-b21d-4d2eae3f4dff
+›
+java:S3008"SRename this field "KEY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È’èÌøÿÿÿÿ8«ÌŠ¢ÿ1J$c52d8705-42e4-439e-a6dd-fdf36e76f8f9
+œ
+java:S3008	"YRename this field "TRANSFORMATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½½¡Ä8«ÌŠ¢ÿ1J$04589369-2d2d-4094-a6f1-bd0c81ae6ce6
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Óùÿ¿8¬ÌŠ¢ÿ1J$451007cd-2b13-4239-a028-f631b61bacd8

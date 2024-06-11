@@ -1,26 +1,26 @@
 
+{
+java:S2589‰"7Remove this expression which always evaluates to "true"(ê•â¨8«éœœ€2J$24e936fe-330c-4625-8124-b87ddfbb08c6
 t
-java:S2589¦"7Remove this expression which always evaluates to "true"(ê•â¨J$c3bb6ca2-c212-4e95-bce9-88946d6be2ba
+java:S2589­"7Remove this expression which always evaluates to "true"(ê•â¨J$e57b8d92-49a0-4811-b77b-0600c36c673d
 d
-java:S5411)"(Use a primitive boolean expression here.(¾ÒÂ¿J$8a041ae9-c4ad-45d7-b24a-45f2b53560f7
+java:S5411)"(Use a primitive boolean expression here.(¾ÒÂ¿J$21d148e9-6471-4e79-8a7e-c2a7b73f58f3
 e
-java:S5411¯"(Use a primitive boolean expression here.(¾ÒÂ¿J$8c980a06-2dd7-4eb1-a931-1d844ce22fd9
-‡	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¸Ê8½”ƒ¢ÿ1J$283ab12e-c302-4d53-8bd9-0c2e805da576
-ˆ	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(‰µìÚ8½”ƒ¢ÿ1J$6dfcca2b-adfe-48f6-a315-475cbb593a5b
-	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ó†“¦ıÿÿÿÿ8½”ƒ¢ÿ1J$fa552da2-413a-4086-a9c5-9d6033cc7744
-ˆ	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(äÆ–8¾”ƒ¢ÿ1J$718c9b8a-9ad7-4df7-ac34-be9973297255
-‰	java:S112¡"FDefine and throw a dedicated exception instead of using a generic one.(°üğ8¾”ƒ¢ÿ1J$813c938f-fa49-4522-8378-8130b4336e17
-‰	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(‹¦‚¯8¾”ƒ¢ÿ1J$3a98cb04-fcaf-4e77-8e07-2959052c282f
-†
-java:S2095g"EUse try-with-resources or close this "Session" in a "finally" clause.(íÊ‹ƒúÿÿÿÿJ$de23230b-e06f-4b99-abb0-9f18b492e4a6
+java:S5411’"(Use a primitive boolean expression here.(¾ÒÂ¿J$eb8ecfc9-5416-472d-b9cb-e55c00fdc927
+‡	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¸Ê8ñé‘¾€2J$debcfe08-2b67-4562-9737-83a528bda300
+ˆ	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(‰µìÚ8ñé‘¾€2J$0646919b-6071-494b-9645-3304d5131ae5
+	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ó†“¦ıÿÿÿÿ8ñé‘¾€2J$d84f1b92-8a0d-4e1a-89c8-6a03334d81ec
+ˆ	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(äÆ–8ñé‘¾€2J$966c5c76-bbba-47bf-8c00-2edff674e4a2
+‰	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(°üğ8¾”ƒ¢ÿ1J$6b9524f7-5181-451b-ab0b-a94ee884ee08
+‰	java:S112¤"FDefine and throw a dedicated exception instead of using a generic one.(‹¦‚¯8¾”ƒ¢ÿ1J$50803805-6740-4a21-a101-dff4102a1113
+
+java:S2095g"EUse try-with-resources or close this "Session" in a "finally" clause.(íÊ‹ƒúÿÿÿÿ8ñé‘¾€2J$50fe32dd-09a8-4db7-a9a0-c18eaf95bdbf
 v
-java:S1118":Add a private constructor to hide the implicit public one.(Ï¹¹¡J$3bbe7bd9-8b9d-4935-9516-4a8a3c41be82
-|	java:S125"<This block of commented-out lines of code should be removed.(Ò·øÊùÿÿÿÿJ$6cef4b4e-863d-4fb7-8f95-d1837b6f81e3
-ƒ	java:S125,"<This block of commented-out lines of code should be removed.(ØëÓíûÿÿÿÿ8È”ƒ¢ÿ1J$4fb674b4-7d3a-4549-8e38-d3c408a71a37
-ƒ	java:S1251"<This block of commented-out lines of code should be removed.(ØëÓíûÿÿÿÿ8È”ƒ¢ÿ1J$762aaef5-25d8-4f7b-85f3-8991bb47f2e1
+java:S1118":Add a private constructor to hide the implicit public one.(Ï¹¹¡J$0ac4a1d6-b01b-4726-8679-2a0064a4331c
+|	java:S125"<This block of commented-out lines of code should be removed.(Ò·øÊùÿÿÿÿJ$1848a81f-8b15-4ffb-a2ba-2fdfb8f663be
+ƒ	java:S125,"<This block of commented-out lines of code should be removed.(ØëÓíûÿÿÿÿ8È”ƒ¢ÿ1J$130b06d5-7443-4a2c-8427-d1f307227c9c
+ƒ	java:S1251"<This block of commented-out lines of code should be removed.(ØëÓíûÿÿÿÿ8È”ƒ¢ÿ1J$c388110b-e878-41a5-a76b-149783f00dd6
 g
-java:S1168W"+Return an empty collection instead of null.(¥¹ïJ$cdfa357e-ae24-4622-b36c-13c1a732e855
-|	java:S125w"<This block of commented-out lines of code should be removed.(¨®ıÿÿÿÿJ$6cc6c015-60a0-4132-9c85-6a37ef197d57
-}	java:S125‡"<This block of commented-out lines of code should be removed.(Åèà¤øÿÿÿÿJ$fdd7a9b1-53eb-405b-bc72-b4c84c36f8fa
+java:S1168W"+Return an empty collection instead of null.(¥¹ïJ$4abda350-23f2-41e1-8f1b-7fbb288c9f72
 °
-java:S1130Á"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‹¦‚¯8Ş”ƒ¢ÿ1J$da5f0e3c-1d1a-4808-957b-5b3c1a86b8b3
+java:S1130¤"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‹¦‚¯8Ş”ƒ¢ÿ1J$d43d7317-e0bc-46fc-b9cb-bc510cdda899

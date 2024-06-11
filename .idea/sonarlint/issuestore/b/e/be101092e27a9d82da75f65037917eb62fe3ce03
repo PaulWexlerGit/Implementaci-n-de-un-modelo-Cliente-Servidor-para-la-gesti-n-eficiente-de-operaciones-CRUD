@@ -1,39 +1,42 @@
 
 J
-java:S16047"(Make this anonymous inner class a lambda(•µÌ‡ùÿÿÿÿ8±ºÎÔı1
-m	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ë¬Ì8²ºÎÔı1
-r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ8²ºÎÔı1
-r	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ8²ºÎÔı1
-m	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–8²ºÎÔı1
-r	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ8²ºÎÔı1
+java:S1604Y"(Make this anonymous inner class a lambda(•µÌ‡ùÿÿÿÿ8±ºÎÔı1
+m	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ë¬Ì8²ºÎÔı1
+r	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ8²ºÎÔı1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ8²ºÎÔı1
+n	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–8²ºÎÔı1
+s	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ8²ºÎÔı1
 H
-java:S11991"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199S"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199G"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199d"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S11995"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199W"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 O
-java:S1199@"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÂºÎÔı1
+java:S1199i"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÂºÎÔı1
+P
+java:S1199š"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÅºÎÔı1
 O
-java:S1199K"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÅºÎÔı1
+java:S1199t"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
 O
-java:S1199{"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
-O
-java:S1199U"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
-O
-java:S1199^"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
-O
-java:S1199h"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
-O
-java:S1199q"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
+java:S1199}"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
+P
+java:S1199‡"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
+P
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÆºÎÔı1
 d
-java:S1192£"FDefine a constant instead of duplicating this literal "Error" 3 times.(èÁ·Û8ÆºÎÔı1
-b
-java:S3252""LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Ì—İ
+java:S1192È"FDefine a constant instead of duplicating this literal "Error" 3 times.(èÁ·Û8ÆºÎÔı1
+]	java:S125K"<This block of commented-out lines of code should be removed.(äç‰ñùÿÿÿÿ8ÿÊ‡¢ÿ1
+^	java:S125"<This block of commented-out lines of code should be removed.(»™¬óûÿÿÿÿ8ƒË‡¢ÿ1
 J
-java:S1905¡",Remove this unnecessary cast to "ArrayList".(™¥ÇÜ8ìºÎÔı1
-X	java:S125¶"<This block of commented-out lines of code should be removed.(‰»-8„½ãùı1
+java:S1905Æ",Remove this unnecessary cast to "ArrayList".(™¥ÇÜ8ìºÎÔı1
+M
+java:S1128"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8‰Ë‡¢ÿ1
+`
+java:S1128">Remove this unused import 'library.controller.UserController'.(§˜Ô¯üÿÿÿÿ8‰Ë‡¢ÿ1
 I
-java:S1128"'Remove this unused import 'model.Loan'.(ïêèúÿÿÿÿ8…½ãùı1
+java:S1128""'Remove this unused import 'model.Loan'.(ïêèúÿÿÿÿ8…½ãùı1
+D
+java:S1128#"'Remove this unused import 'model.User'.(˜Ğ ñ8‰Ë‡¢ÿ1
 G
-java:S1128"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8†½ãùı1
+java:S1128%"*Remove this unused import 'java.sql.Date'.(ÙÀ½Ê8†½ãùı1

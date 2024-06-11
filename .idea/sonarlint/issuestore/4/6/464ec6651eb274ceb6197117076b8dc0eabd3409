@@ -53,9 +53,9 @@ java:S1192„"MDefine a constant instead of duplicating this literal "InformaciÃ
 ‰
 java:S1192L"FDefine a constant instead of duplicating this literal "Error" 5 times.(èÁ·Û8é–ƒ¢ÿ1J$0095e9e7-e26b-43c4-b3c7-423654cc86dc
 ƒ	java:S125b"<This block of commented-out lines of code should be removed.(÷ù”Ãùÿÿÿÿ8õ–ƒ¢ÿ1J$7f247b85-1859-4e58-9cad-48280517733c
-s
-java:S1128"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8†—ƒ¢ÿ1J$787ca41a-16c7-443e-a9cb-28355217e944
-€
-java:S1128"8Remove this unused import 'javax.swing.WindowConstants'.(Åİ×Óÿÿÿÿÿ8†—ƒ¢ÿ1J$f923f2fd-ca2e-407b-a542-5fcc86473fe5
-
-java:S1128 "ERemove this unused import 'library.view.tablemodels.BooksTableModel'.(¹¤¾¾ûÿÿÿÿ8‡—ƒ¢ÿ1J$6058fe24-b7b1-4703-816c-331be35ae2e5
+M
+java:S1128"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8ãï‘¾€2
+Z
+java:S1128"8Remove this unused import 'javax.swing.WindowConstants'.(Åİ×Óÿÿÿÿÿ8ãï‘¾€2
+g
+java:S1128 "ERemove this unused import 'library.view.tablemodels.BooksTableModel'.(¹¤¾¾ûÿÿÿÿ8ãï‘¾€2

@@ -49,9 +49,9 @@ java:S1192¨"FDefine a constant instead of duplicating this literal "Error" 4 t
 ƒ	java:S125O"<This block of commented-out lines of code should be removed.(äç‰ñùÿÿÿÿ8Æ—ƒ¢ÿ1J$3b2e2ca7-032f-4e23-81be-be76cf335c51
 „	java:S125"<This block of commented-out lines of code should be removed.(»™¬óûÿÿÿÿ8Ë—ƒ¢ÿ1J$4f64c642-e068-49a5-ac9a-5766dcbe871f
 	java:S125Ì"<This block of commented-out lines of code should be removed.(û«ÐÙ8Ì—ƒ¢ÿ1J$7ecc468d-2e30-4a94-b828-93dd4874593e
-n
-java:S1905¥",Remove this unnecessary cast to "ArrayList".(®¹´ÞúÿÿÿÿJ$eea64f03-e060-4bcc-9b7d-b43680855c22
-s
-java:S1128	"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8Ù—ƒ¢ÿ1J$8bbd118d-b557-43be-9004-c6348c210106
-q
-java:S1128".Remove this unused import 'cliente.ClientDAO'.(­÷¸´8Ù—ƒ¢ÿ1J$3a13ada5-d06d-4be6-853e-2f1e904ef757
+O
+java:S1905¥",Remove this unnecessary cast to "ArrayList".(®¹´Þúÿÿÿÿ8‚ò‘¾€2
+M
+java:S1128	"0Remove this unused import 'javax.swing.JDialog'.(ŒÊªÉ8…ò‘¾€2
+K
+java:S1128".Remove this unused import 'cliente.ClientDAO'.(­÷¸´8†ò‘¾€2

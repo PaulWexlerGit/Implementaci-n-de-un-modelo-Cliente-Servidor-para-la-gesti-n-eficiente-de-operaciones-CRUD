@@ -1,12 +1,23 @@
 
 C
-java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
+java:S1604""(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
 E
-java:S16043"(Make this anonymous inner class a lambda(™†ôÔ8ˆ½ÎÔı1
+java:S1604N"(Make this anonymous inner class a lambda(™†ôÔ8ˆ½ÎÔı1
 J
-java:S1604<"(Make this anonymous inner class a lambda(º×ªáúÿÿÿÿ8ˆ½ÎÔı1
+java:S1604^"(Make this anonymous inner class a lambda(º×ªáúÿÿÿÿ8ˆ½ÎÔı1
 E
-java:S1604H"(Make this anonymous inner class a lambda(ı×²»8ˆ½ÎÔı1
-E
-java:S1604Q"(Make this anonymous inner class a lambda(––º”8ˆ½ÎÔı1
-r	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àøŸşÿÿÿÿ8ˆ½ÎÔı1
+java:S1604r"(Make this anonymous inner class a lambda(ı×²»8ˆ½ÎÔı1
+F
+java:S1604‚"(Make this anonymous inner class a lambda(––º”8ˆ½ÎÔı1
+U
+java:S2589…"7Remove this expression which always evaluates to "true"(¹¢†º8ÔÈ‡¢ÿ1
+T
+java:S2589u"7Remove this expression which always evaluates to "true"(‚¿ÎŠ8ÔÈ‡¢ÿ1
+Y
+java:S2589Q"7Remove this expression which always evaluates to "true"(ÿ­¨—üÿÿÿÿ8ÔÈ‡¢ÿ1
+Y
+java:S2589b"7Remove this expression which always evaluates to "true"(½×úÀøÿÿÿÿ8ÕÈ‡¢ÿ1
+Q
+java:S3740"/Provide the parametrized type for this generic.(ºå–úÿÿÿÿ8ÖÈ‡¢ÿ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8áÈ‡¢ÿ1

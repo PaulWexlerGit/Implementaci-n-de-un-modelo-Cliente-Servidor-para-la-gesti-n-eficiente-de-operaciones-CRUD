@@ -1,56 +1,60 @@
 
 F
-java:S1604¤"(Make this anonymous inner class a lambda(³‡à8ËıÕİû1
+java:S1604Ì"(Make this anonymous inner class a lambda(³‡à8ËıÕİû1
 E
-java:S1604­"(Make this anonymous inner class a lambda(çĞ«}8ËıÕİû1
+java:S1604Ö"(Make this anonymous inner class a lambda(çĞ«}8ËıÕİû1
 K
-java:S1604¹"(Make this anonymous inner class a lambda(©ò°¢üÿÿÿÿ8ÌıÕİû1
+java:S1604ã"(Make this anonymous inner class a lambda(©ò°¢üÿÿÿÿ8ÌıÕİû1
 F
-java:S1604Æ"(Make this anonymous inner class a lambda(¨ª§µ8Â®„şü1
-m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…Æû8ÌıÕİû1
-r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ8ÌıÕİû1
-r	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ8ÌıÕİû1
-r	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÎ¤¬úÿÿÿÿ8ÍıÕİû1
-m	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëœËÜ8ÍıÕİû1
-r	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜæÂîùÿÿÿÿ8ÍıÕİû1
-n	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬»óˆ8ÍıÕİû1
-n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–8ÍıÕİû1
-s	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ8ÎıÕİû1
+java:S1604ï"(Make this anonymous inner class a lambda(¨ª§µ8Â®„şü1
+m	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…Æû8ÌıÕİû1
+r	java:S117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äæí‹ùÿÿÿÿ8ÌıÕİû1
+s	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ÖÜ»ûÿÿÿÿ8ÌıÕİû1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÎ¤¬úÿÿÿÿ8ÍıÕİû1
+n	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëœËÜ8ÍıÕİû1
+s	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜæÂîùÿÿÿÿ8ÍıÕİû1
+n	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬»óˆ8ÍıÕİû1
+n	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äø•–8ÍıÕİû1
+s	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò…Ö¬ùÿÿÿÿ8ÎıÕİû1
+K
+java:S5411Ø"(Use a primitive boolean expression here.(Ò„»‘üÿÿÿÿ8 È‡¢ÿ1
 H
-java:S1199;"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199]"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 H
-java:S1199I"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199p"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199Æ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199y"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199‚"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199Œ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199•"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 I
 java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199R"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199["-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199e"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199n"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-H
-java:S1199w"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 I
-java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199¨"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 I
-java:S1199‹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+java:S1199²"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
 P
-java:S1199”"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
+java:S1199»"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
 P
-java:S1199¢"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
+java:S1199Ê"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
 P
-java:S1199«"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
+java:S1199Ô"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
 P
-java:S1199·"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
+java:S1199á"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÛıÕİû1
 P
-java:S1199Ä"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Ç®„şü1
-h
-java:S11920"FDefine a constant instead of duplicating this literal "Error" 4 times.(«¹¥Èúÿÿÿÿ8ÜıÕİû1
-M
-java:S11350"2Complete the task associated to this TODO comment.(«¹¥Èúÿÿÿÿ
-P
-java:S1135–"2Complete the task associated to this TODO comment.(Ğ´œ8„şÕİû1
-O
-java:S1135—"2Complete the task associated to this TODO comment.(²”8„şÕİû1
+java:S1199í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Ç®„şü1
+p
+java:S1192‘"MDefine a constant instead of duplicating this literal "InformaciÃ³n" 3 times.(Ïö¦¿úÿÿÿÿ8£È‡¢ÿ1
+c
+java:S1192E"FDefine a constant instead of duplicating this literal "Error" 5 times.(èÁ·Û8£È‡¢ÿ1
+]	java:S1255"<This block of commented-out lines of code should be removed.(œ“İæúÿÿÿÿ8¨È‡¢ÿ1
+]	java:S125S"<This block of commented-out lines of code should be removed.(äç‰ñùÿÿÿÿ8ªÈ‡¢ÿ1
+]	java:S125l"<This block of commented-out lines of code should be removed.(÷ù”Ãùÿÿÿÿ8­È‡¢ÿ1
+Y	java:S125İ"<This block of commented-out lines of code should be removed.(‚Ú8±È‡¢ÿ1
+X	java:S125ß"<This block of commented-out lines of code should be removed.(¸™ä(8±È‡¢ÿ1
+Y	java:S125ê"<This block of commented-out lines of code should be removed.(€§©Õ8²È‡¢ÿ1

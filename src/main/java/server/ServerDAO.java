@@ -115,35 +115,6 @@ public class ServerDAO {
 			throw he;
 		}
 	}
-//
-//    public static void remove(Object object) throws Exception {
-//        Transaction tx = null;
-//        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
-//            tx = session.beginTransaction();
-//            session.remove(user);
-//            tx.commit();
-//        } catch (HibernateException he) {
-//            throw new Exception("Error en hibernate al eliminar el usuario");
-//        } catch (Exception ex) {
-//            if (tx != null) {
-//                tx.rollback();
-//            }
-//            throw new Exception("No se ha podido insertar el usuario " + user.getName());
-//        }
-//    }
-
-//    public static ArrayList<String> listClassNames(final File folder) {
-//        ArrayList<String> clases = new ArrayList<>();
-//        for (final File fileEntry : folder.listFiles()) {
-//            if (fileEntry.isFile() && fileEntry.getName().endsWith(".java")) {
-//                String className = fileEntry.getName();
-//                // Elimina la extensión ".class" para obtener el nombre de la clase
-//                className = className.substring(0, className.length() - 5);
-//                clases.add(className);
-//            }
-//        }
-//        return clases;
-//    }
 
 	public static void transaction() {
 		try {
@@ -192,5 +163,17 @@ public class ServerDAO {
 
 	public static void delete(Object object) throws Exception {
 		delete(object, true);
+	}
+
+	public static void rollback() {
+		try {
+			tx.rollback();
+			session.close();
+		} catch (HibernateException he) {
+			if (tx != null) {
+				tx.rollback();
+			}
+			throw he;
+		}
 	}
 }
