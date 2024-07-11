@@ -1,4 +1,4 @@
-En el presente Trabajo Final de Grado, se busca abordar la optimización de las operaciones sobre bases de datos utilizando las API RESTful como una alternativa eficiente. 
+En el presente Trabajo Final de Grado, se busca abordar la optimización de las operaciones sobre bases de datos que utilizan API RESTful proponiendo una alternativa eficiente. 
 El objetivo principal de este proyecto es simplificar la implementación de API RESTful en el servidor, aumentando así la productividad en el desarrollo de aplicaciones. 
 Esto se debe a que las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre las bases de datos suelen compartir una cantidad considerable de código repetitivo. 
   
